@@ -11,7 +11,7 @@ alignment: true
 <h1>Silvan Adrian</h1>
 
 Meine Webseite ist auch ein städniges Projekt, das nie  ganz fertig werden will.
-
+<a class="findoutleft" href="/projects/silvan-adrian.html">Weiterlesen</a>
 </div>
 
 

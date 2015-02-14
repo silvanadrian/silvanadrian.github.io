@@ -50,6 +50,7 @@
     margin-top: 50px;
     float:right;
     font-size:1.3em;
+    font-family: $nav-font;
 
     .menu-icon {
         display: none;
@@ -268,6 +269,7 @@
     width:100%;
     position: relative;
     
+    
 }
 
 .project-heading {
@@ -288,13 +290,13 @@
 }
 
 .info {
-    padding: 50px 30px 150px 0;
+    padding: 200px 30px 0px 0;
     margin-left: 54%;
-    height:550px;
+    height:450px;
 }
 
 .infoleft {
-    padding: 50px 0 150px 30px;
+    padding: 200px 0 0px 30px;
     height:550px;
 }
 
@@ -309,11 +311,10 @@
 }
 
 .findoutleft {
-    position: relative;
-    margin-left: 3%;
-    margin-top: -80px;
+    display: block;
+    width:90px;
     padding:5px 10px 5px 10px;
-    float:left;
+   margin-top: 50px;
     border:2px solid #111;
     color:#111;
 }
