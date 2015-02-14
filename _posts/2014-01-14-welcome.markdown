@@ -1,0 +1,23 @@
+---
+layout: page
+title:  "Silvan Adrian"
+date:   2015-01-14 13:33:44
+categories: Web Design, WebDevelopment
+---
+
+
+
+Silvan Adrian
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+
+
+<!--more-->
+Hello World this does not belong to excerpt

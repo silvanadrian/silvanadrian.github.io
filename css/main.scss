@@ -1,0 +1,64 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+@font-face {
+    font-family: 'silvanfont';
+    src: url('../fonts/silvanl_font-webfont.eot');
+    src: url('../fonts/silvanl_font-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/silvanl_font-webfont.woff') format('woff'),
+         url('../fonts/silvanl_font-webfont.ttf') format('truetype'),
+         url('../fonts/silvanl_font-webfont.svg#silvan_fontregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+// Our variables
+$base-font-family: Helvetica, Arial, sans-serif;
+$titel-font: 'silvanfont';
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     10px;
+
+$text-color:       #111;
+$background-color: #ECF0F1;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    100%;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;

@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="home">
+    
+
+  <ul class="project-list">
+    {% for project in site.projects limit:6 %}
+      <li class="project">
+        {% if project.content contains '<!--more-->' %}
+                {{ project.content | split:'<!--more-->' | first }}
+                <a class="findout" href="{{project.url}}">Weiterlesen</a>
+          {% else %}
+          {{ project.content }}
+          {% endif %}
+      </li>
+      
+      
+    {% endfor %}
+  </ul>
+
+</div>

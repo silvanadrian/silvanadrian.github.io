@@ -1,0 +1,25 @@
+---
+layout: blog
+---
+
+<div class="home">
+    
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li class="post">
+        {% if post.content contains '<!--more-->' %}
+                <h1>{{post.title}}</h1>
+                {{ post.content | split:'<!--more-->' | first | mardownify }}
+                <a class="" href="{{post.url}}">Weiterlesen</a>
+          {% else %}
+            {{ post.content }}
+            <a class="" href="{{post.url}}">Weiterlesen</a>
+          {% endif %}
+      </li>
+      
+      
+    {% endfor %}
+  </ul>
+
+</div>

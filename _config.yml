@@ -1,0 +1,23 @@
+# Site settings
+title: Silvan Adrian
+email: hallo@silvanadrian.ch
+description: > #Web Designer & Entwickler
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://silvanadrian.ch" # the base hostname & protocol for your site
+twitter_username: svennebanan_
+github_username:  silvanadrian
+
+# Build settings
+markdown: kramdown
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title.html
+    
+assets:
+    sources:
+     - _assets/fonts
+     - _assets/javascript
+     - _assets/stylesheets
+     - _assets/images
