@@ -1,17 +1,22 @@
 ---
 layout: project
-title:  "Bujutsu Webseite"
-date:   2015-01-14 13:33:44
+title:  "Silvan Adrian"
+date:   2015-01-10 13:33:44
 categories: Web Design, WebDevelopment
+alignment: true
 ---
 
-Bujutsu Website
+<div class="va">
+<div class="infoleft">
+<h1>Silvan Adrian</h1>
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Meine Webseite ist auch ein städniges Projekt, das nie  ganz fertig werden will.
 
+</div>
+
+
+
+</div>
+
+<!--more-->
+Hello World this does not belong to excerpt

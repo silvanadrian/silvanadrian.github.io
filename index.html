@@ -10,7 +10,11 @@ layout: default
       <li class="project">
         {% if project.content contains '<!--more-->' %}
                 {{ project.content | split:'<!--more-->' | first }}
+          {% if project.alignment %}
+                <a class="findoutleft" href="{{project.url}}">Weiterlesen</a>
+          {% else %}
                 <a class="findout" href="{{project.url}}">Weiterlesen</a>
+          {% endif %}
           {% else %}
           {{ project.content }}
           {% endif %}
