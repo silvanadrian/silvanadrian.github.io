@@ -8,17 +8,7 @@ layout: default
   <ul class="project-list">
     {% for project in site.projects limit:6 %}
       <li class="project">
-          
-        {% if project.content contains '<!--more-->' %}
-                {{ project.content | split:'<!--more-->' | first }}
-          {% if project.alignment %}
-               <!-- <a class="findoutleft" href="{{project.url}}">Weiterlesen</a>-->
-          {% else %}
-               <!-- <a class="findout" href="{{project.url}}">Weiterlesen</a> -->
-          {% endif %}
-          {% else %}
-          {{ project.content }}
-          {% endif %}
+          {{ project.content | projectmorefilter: project.title , project.excerpt,  project.url, "Read the rest of the blogentry", project.backgroundclass, project.alignment }}
       </li>
       
       
