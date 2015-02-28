@@ -304,16 +304,19 @@
 }
 
 .bj {
-    background:url('../images/bujutsu/flaach.jpg') no-repeat center center fixed #39393b;
+    background:url('../images/bujutsu/flaach.jpg') no-repeat left bottom fixed #39393b;
+    background-size: cover;
 }
 
 
 .sa {
-    background:url('../images/silvanadrian/rafz.jpg') no-repeat left center fixed #e95325;
+    background:url('../images/silvanadrian/rafz.jpg') no-repeat right bottom fixed #e95325;
+    background-size: cover;
 }
 
 .va {
-    background:url('../images/diverses/diverses.jpg') no-repeat left center fixed #e95325;
+    background:url('../images/diverses/diverses.jpg') no-repeat right bottom fixed #e95325;
+    background-size: cover;
 }
 
 .info {
@@ -324,7 +327,7 @@
 
 .infoleft {
     padding: 200px 0 0px 30px;
-    height:550px;
+    height:450px;
     margin-right: 54%;
 }
 
