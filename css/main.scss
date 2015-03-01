@@ -71,7 +71,7 @@ $base-font-family: 'open_sanslight', Arial, sans-serif;
 $titel-font: 'silvanfont';
 $heading-font: 'open_sanssemibold';
 $nav-font: 'Yummo';
-$base-font-size:   16px;
+$base-font-size:   18px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -87,9 +87,11 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
 $content-width:    100%;
-
-$on-palm:          600px;
-$on-laptop:        800px;
+$small-devices:    600px;
+$smartphone:       320px;
+$tablets:          768px;
+$medium-devices:   1024px;
+$large-devices:    1200px;
 
 
 

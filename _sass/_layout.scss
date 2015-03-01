@@ -66,49 +66,7 @@
         }
     }
 
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: 30px;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
 
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-        }
-    }
 }
 
 .site-blog-nav {
@@ -126,50 +84,6 @@
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
             margin-left: 20px;
-        }
-    }
-
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: 30px;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
         }
     }
 }
@@ -209,14 +123,6 @@
     text-align: center;
 }
 
-
-@include media-query($on-palm) {
-    .footer-col {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
 
 
 
@@ -303,20 +209,30 @@
     text-align: center;
 }
 
+.white {
+    color:#FFF!important;
+}
+
+.white a {
+    color:#FFF !important;
+    border:1px solid #FFF;
+}
+
 .bj {
     background:url('../images/bujutsu/flaach.jpg') no-repeat left bottom fixed #39393b;
-    background-size: cover;
+    background-size:100%;
 }
 
 
 .sa {
-    background:url('../images/silvanadrian/rafz.jpg') no-repeat right bottom fixed #e95325;
-    background-size: cover;
+    background:url('../images/silvanadrian/rafz.jpg') no-repeat right top fixed #e95325;
+    background-size:100%;
 }
 
 .va {
     background:url('../images/diverses/diverses.jpg') no-repeat right bottom fixed #e95325;
-    background-size: cover;
+    background-size:100%;
+    
 }
 
 .info {
@@ -342,6 +258,11 @@
     margin-top: 20px;
 }
 
+@media only screen and (min-width : 320px) {
+        
+    }
+
+
 
 /**
  * Posts
@@ -355,7 +276,7 @@
     letter-spacing: -1px;
     line-height: 1;
 
-    @include media-query($on-laptop) {
+    @include media-query($medium-devices) {
         font-size: 36px;
     }
 }
@@ -366,7 +287,7 @@
     h2 {
         font-size: 32px;
 
-        @include media-query($on-laptop) {
+        @include media-query($medium-devices) {
             font-size: 28px;
         }
     }
@@ -374,7 +295,7 @@
     h3 {
         font-size: 26px;
 
-        @include media-query($on-laptop) {
+        @include media-query($medium-devices) {
             font-size: 22px;
         }
     }
@@ -382,8 +303,190 @@
     h4 {
         font-size: 20px;
 
-        @include media-query($on-laptop) {
+        @include media-query($medium-devices) {
             font-size: 18px;
         }
     }
 }
+
+
+/* Media Queries */
+
+
+
+
+@include media-query($large-devices) {
+    .site-header {
+        padding:10px 15%;
+    }
+    
+    
+     .post {
+            padding:10px 0;
+            width:70%;
+            margin-left:15%;
+        }
+    
+    
+     .post-list {
+            width:70%;
+            padding:0 15%;
+        }
+    
+    
+    .bj {
+        background:url('../images/bujutsu/flaach.jpg') no-repeat scroll left top / 110% auto #39393b;
+    }
+
+
+    .sa {
+        background:url('../images/silvanadrian/rafz.jpg') no-repeat scroll right top / 110% #e95325;
+    }
+
+    .va {
+        background:url('../images/diverses/diverses.jpg') no-repeat scroll right top / 110% #e95325;
+    }
+    
+    
+    .info {
+        background:#FFF;
+        width:40%;
+        margin-left:50%;
+        height:300px;
+        padding: 5% 5%;
+    }
+    
+    .infoleft {
+        background:#FFF;
+        width:40%;
+        height:300px;
+        padding: 5% 5%;
+    }
+    
+    .white {
+        color:#000!important;
+    }
+
+    .white a {
+        color:#000 !important;
+        border:1px solid #000;
+    }
+    
+
+}
+
+
+@include media-query($medium-devices) {
+     .site-header {
+        padding:10px 10%;
+    }
+    
+      .post {
+            padding:10px 0;
+            width:80%;
+            margin-left:10%;
+        }
+    
+    .post-list {
+            width:80%;
+            padding:0 10%;
+        }
+    
+    
+     .bj {
+        background:url('../images/bujutsu/flaach.jpg') no-repeat scroll left top / 110% auto #39393b;
+        
+    }
+    
+     .sa {
+        background:url('../images/silvanadrian/rafz.jpg') no-repeat scroll right top / 110% auto #e95325;
+    }
+    
+    
+      .va {
+        background:url('../images/diverses/diverses.jpg') no-repeat scroll right top / 110% auto #e95325;
+    }
+}
+
+
+
+
+@include media-query($tablets) {
+       
+    .site-nav {
+            margin-top: 0;
+       text-align: center;
+        width:100%;
+        display: block;
+        }
+    
+        .site-title {
+            width:100%;
+            text-align: center;
+        }
+    
+        .site-header {
+            padding:10px 5%;
+        }
+     
+
+        .page-link {
+            display: inline;
+            padding: 5px 10px;
+        }
+    
+        .post {
+            padding:10px 5%;
+            width:90%;
+            margin-left:0;
+        }
+    
+        .post-list {
+            width:100%;
+            padding:0;
+        }
+    
+
+    
+    
+    }
+
+
+@include media-query($small-devices) {
+    .info {
+        width:90%;
+        margin-left:0;
+        height:auto;
+    }
+    
+    .infoleft {
+         width:90%;
+        height:auto;
+    }
+    
+    .bj {
+        background:url('../images/bujutsu/flaach.jpg') no-repeat scroll left top / 135% auto #39393b;
+        padding:280px 0 0;
+    }
+    
+    .sa {
+        background:url('../images/silvanadrian/rafz.jpg') no-repeat scroll right top / 135% auto #e95325;
+        padding:280px 0 0;
+    }
+    
+    
+     .va {
+        background:url('../images/diverses/diverses.jpg') no-repeat scroll right top / 135% auto #e95325;
+        padding:280px 0 0;
+    }
+}
+
+
+@include media-query($smartphone) {
+    
+    .bj, .va, .sa {
+        padding:200px 0 0;
+    }
+
+}
+
