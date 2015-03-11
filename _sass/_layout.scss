@@ -9,6 +9,7 @@
     // Positioning context for the mobile navigation icon
     position: relative;
     padding:10px 20%;
+    border-top:5px solid #121212;
 }
 
 .site-title {
@@ -17,7 +18,7 @@
     margin-bottom: 0;
     float:left;
     display: block;
-    width:50%;
+    width:10%;
 
     &,
     &:visited {
@@ -201,62 +202,16 @@
 **/
 
 .project {
-    width:100%;
+    
     position: relative;
+    padding:0 20%;
 }
 
 .project-heading {
     text-align: center;
 }
 
-.white {
-    color:#FFF!important;
-}
 
-.white a {
-    color:#FFF !important;
-    border:1px solid #FFF;
-}
-
-.bj {
-    background:url('../images/bujutsu/flaach.jpg') no-repeat left bottom fixed #39393b;
-    background-size:100%;
-}
-
-
-.sa {
-    background:url('../images/silvanadrian/rafz.jpg') no-repeat right top fixed #e95325;
-    background-size:100%;
-}
-
-.va {
-    background:url('../images/diverses/diverses.jpg') no-repeat right bottom fixed #e95325;
-    background-size:100%;
-    
-}
-
-.info {
-    padding: 200px 30px 0px 0;
-    margin-left: 54%;
-    height:450px;
-}
-
-.infoleft {
-    padding: 200px 0 0px 30px;
-    height:450px;
-    margin-right: 54%;
-}
-
-.findout {
-    margin-top:40px;
-    padding:5px 10px 5px 10px;
-    border:2px solid #111;
-    color:#111;
-}
-
-.more {
-    margin-top: 20px;
-}
 
 @media only screen and (min-width : 320px) {
         
@@ -333,45 +288,6 @@
             padding:0 15%;
         }
     
-    
-    .bj {
-        background:url('../images/bujutsu/flaach.jpg') no-repeat scroll left top / 110% auto #39393b;
-    }
-
-
-    .sa {
-        background:url('../images/silvanadrian/rafz.jpg') no-repeat scroll right top / 110% #e95325;
-    }
-
-    .va {
-        background:url('../images/diverses/diverses.jpg') no-repeat scroll right top / 110% #e95325;
-    }
-    
-    
-    .info {
-        background:#FFF;
-        width:40%;
-        margin-left:50%;
-        height:300px;
-        padding: 5% 5%;
-    }
-    
-    .infoleft {
-        background:#FFF;
-        width:40%;
-        height:300px;
-        padding: 5% 5%;
-    }
-    
-    .white {
-        color:#000!important;
-    }
-
-    .white a {
-        color:#000 !important;
-        border:1px solid #000;
-    }
-    
 
 }
 
@@ -379,6 +295,10 @@
 @include media-query($medium-devices) {
      .site-header {
         padding:10px 10%;
+    }
+    
+    body {
+        font-size: 16px !important;
     }
     
       .post {
@@ -393,19 +313,6 @@
         }
     
     
-     .bj {
-        background:url('../images/bujutsu/flaach.jpg') no-repeat scroll left top / 110% auto #39393b;
-        
-    }
-    
-     .sa {
-        background:url('../images/silvanadrian/rafz.jpg') no-repeat scroll right top / 110% auto #e95325;
-    }
-    
-    
-      .va {
-        background:url('../images/diverses/diverses.jpg') no-repeat scroll right top / 110% auto #e95325;
-    }
 }
 
 
@@ -453,40 +360,13 @@
 
 
 @include media-query($small-devices) {
-    .info {
-        width:90%;
-        margin-left:0;
-        height:auto;
-    }
-    
-    .infoleft {
-         width:90%;
-        height:auto;
-    }
-    
-    .bj {
-        background:url('../images/bujutsu/flaach.jpg') no-repeat scroll left top / 135% auto #39393b;
-        padding:280px 0 0;
-    }
-    
-    .sa {
-        background:url('../images/silvanadrian/rafz.jpg') no-repeat scroll right top / 135% auto #e95325;
-        padding:280px 0 0;
-    }
-    
-    
-     .va {
-        background:url('../images/diverses/diverses.jpg') no-repeat scroll right top / 135% auto #e95325;
-        padding:280px 0 0;
-    }
+
 }
 
 
 @include media-query($smartphone) {
     
-    .bj, .va, .sa {
-        padding:200px 0 0;
-    }
+   
 
 }
 
