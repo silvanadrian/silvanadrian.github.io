@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<div class="home">
+    
+
+{% for image in site.images limit:6 %}
+    {{ image.content }}
+{% endfor %}
+
+</div>

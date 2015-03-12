@@ -15,6 +15,11 @@ collections:
     output: true
     permalink: /projects/:title.html
     
+  images:
+    output: true
+    permalink: /gallery/:title.html
+    
+    
 assets:
     sources:
      - _assets/fonts

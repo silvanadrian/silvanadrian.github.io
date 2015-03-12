@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="home">
+    
+<div id="photography">
+{% for image in site.images %}
+<a class="fancybox" href="{{ image.image[forloop.index0] }}" title="{{ image.image-alt[forloop.index0] }}">     
+    <img src="{{ image.image[forloop.index0] }}" alt="{{ image.image-alt[forloop.index0] }}">
+
+</a>    
+
+{% endfor %}
+</div>
+</div>
