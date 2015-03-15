@@ -7,6 +7,8 @@ excerpt: "Meine Webseite ist auch ein städniges Projekt, das nie ganz fertig we
 alignment: left
 backgroundclass: sa
 link: "http://silvanadrian.ch"
+image:
+- /img/gallery/flower.jpg
 ---
 <div class="project-text">
 <h1>Silvan Adrian</h1>

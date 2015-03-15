@@ -8,7 +8,11 @@ layout: default
   <ul class="project-list">
     {% for project in site.projects limit:6 %}
       <li class="project">
-          {{ project.content | projectmorefilter: project.title , project.excerpt,  project.url, "Read the rest of the blogentry", project.backgroundclass, project.color, project.alignment }}
+         <a href="{{project.url}}"> <img src="{{ project.image[forloop.index0] }}">
+          <div class="projectoverlay"><h2>{{project.title}}</h2></div>
+          
+          </a>
+          
       </li>
       
       

@@ -10,4 +10,11 @@ $(document).ready(function() {
         lastRow : 'justify',
         margins : 5
     });
+    
+    
+    $(".menu-link").click(function(){
+      $(".site-nav").toggleClass("active");
+      $(".container").toggleClass("active");
+});
+    
 });

@@ -78,7 +78,7 @@ $base-line-height: 1.5;
 $spacing-unit:     10px;
 
 $text-color:       #111;
-$background-color: #EFEFEF;
+$background-color: #FFF;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
@@ -114,5 +114,7 @@ $large-devices:    1200px;
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "fancybox",
+        "justifiedgallery"
 ;

@@ -1,32 +1,48 @@
+/*
+
+Page Wrapper
+
+*/
+
+.page-wrapper {
+    width:1170px;
+    margin:0 auto;
+}
+
 /**
  * Site header
  */
 .site-header {
-    //border-top: 5px solid $grey-color-dark;
-    //border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
-    background: #FFF;
     // Positioning context for the mobile navigation icon
-    position: relative;
-    padding:10px 20%;
     border-top:5px solid #121212;
+    
 }
 
 .site-title {
-    font-size: 90px;
+    font-size: 170px;
     font-family: $titel-font;
     margin-bottom: 0;
-    float:left;
+    text-align: center;
     display: block;
-    width:10%;
-
+    
     &,
     &:visited {
         color: $grey-color-dark;
     }
 }
 
-.site-title:hover,.site-blog-title:hover {
+.menu-link {
+    position: fixed;
+    top:50px;
+    right:50px;
+    
+}
+
+.site-logo {
+    color:$grey-color-dark;
+}
+
+.site-title:hover,.site-blog-title:hover, .site-logo:hover {
     text-decoration: none;
 }
 
@@ -48,23 +64,61 @@
 
 .site-nav {
     line-height: 56px;
-    margin-top: 50px;
-    float:right;
     font-size:1.3em;
     font-family: $nav-font;
-
+    position: fixed;
+    top:0;
+    bottom:0;
+    height:100%;
+    right:-13.755em;
+    width: 13.755em;
+    background: #1a1a1a;
+    padding-left:20px;
+     -webkit-transform: translate(0px, 0px);
+        -moz-transform: translate(0px, 0px);
+        -o-transform: translate(0px, 0px);
+        -ms-transform: translate(0px, 0px);
+        transform: translate(0px, 0px);
+        -webkit-transition: 0.15s ease;
+        -moz-transition: 0.15s ease;
+        -o-transition: 0.15s ease;
+        transition: 0.15s ease;
     .page-link {
-        color: $text-color;
+        color: #808080;
         line-height: $base-line-height;
-
+        display: block;
         // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
-        }
+      
     }
 
 
 }
+
+
+.site-nav.active {
+       
+}
+
+.container {
+       -webkit-transform: translate(0px, 0px);
+       -moz-transform: translate(0px, 0px);
+       -o-transform: translate(0px, 0px);
+       -ms-transform: translate(0px, 0px);
+       transform: translate(0px, 0px);
+       -webkit-transition: 0.15s ease;
+       -moz-transition: 0.15s ease;
+       -o-transition: 0.15s ease;
+       transition: 0.15s ease;  
+}
+
+.container.active {
+     -webkit-transform: translate(-13.725em, 0px);
+       -moz-transform: translate(-13.725em, 0px);
+       -o-transform: translate(-13.725em, 0px);
+       -ms-transform: translate(-13.725em, 0px);
+       transform: translate(-13.725em, 0px);
+}
+
 
 .site-blog-nav {
     line-height: 56px;
@@ -127,7 +181,7 @@
  * Page content
  */
 .page-content {
-    padding: 0 20%;
+    border-top:1px dashed #CCC;
 }
 
 .page-heading {
@@ -139,7 +193,7 @@
     padding:10px 0;
 }
 
-.post-list, .project-list {
+.post-list {
     margin-left: 0;
     list-style: none;
 
@@ -194,17 +248,52 @@
 .project {
     position: relative;
     padding:0;
+    margin:20px 0;
+}
+
+.project:hover .projectoverlay {
+    opacity:1;
+}
+
+.projectoverlay {
+    opacity: 0;
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background: #121212;
+    z-index: 100;
+    color:#FFF;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.projectoverlay h2 {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.project-list {
+    list-style: none;
 }
 
 .project-heading {
     text-align: center;
 }
 
+.project img {
+    width:100%;
+}
+
 
 
 @media only screen and (min-width : 320px) {
       
-
+      
+    
+       
     }
 
 
@@ -261,11 +350,7 @@
 
 
 @include media-query($large-devices) {
-    .site-header {
-        padding:10px 15%;
-    }
-    
-    
+
      .post {
             padding:10px 0;
             
@@ -280,14 +365,23 @@
       .site-nav {
             font-size:1em;
         }
+    
+     .page-content {
+            padding: 0 0;
+        }
+    
+    
+        .project {
+            margin:20px 2%;
+        }
+    
+   
 
 }
 
 
 @include media-query($medium-devices) {
-     .site-header {
-        padding:10px 10%;
-    }
+ 
     
     body {
         font-size: 16px !important;
@@ -313,10 +407,6 @@
         .site-title {
             width:100%;
             text-align: center;
-        }
-    
-        .site-header {
-            padding:10px 5%;
         }
      
 
