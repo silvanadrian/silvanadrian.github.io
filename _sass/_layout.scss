@@ -8,22 +8,32 @@ Page Wrapper
     margin:0 auto;
 }
 
+body {
+    border-top:5px solid #121212;
+    background:#EFEFEF;
+    font-size: 14px;
+}
+
+p {
+    font-size:1.5em;
+    line-height: 1.5em;
+}
+
 /**
  * Site header
  */
 .site-header {
     // Positioning context for the mobile navigation icon
-    border-top:5px solid #121212;
     
 }
 
 .site-title {
-    font-size: 170px;
+    font-size: 120px;
     font-family: $titel-font;
     margin-bottom: 0;
     text-align: center;
     display: block;
-    
+    background: #FFF;
     &,
     &:visited {
         color: $grey-color-dark;
@@ -59,8 +69,23 @@ Page Wrapper
     }
 }
 
+.homepageimage {
+    background:url(../img/home/seecrop.jpg) no-repeat;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height:500px;
+}
 
+.hometitle {
+    position: absolute;
+    width:100%;
+    text-align: center;
+    color:#FFF;
+}
 
+/*
 .site-nav {
     line-height: 56px;
     font-size:1.3em;
@@ -97,47 +122,20 @@ Page Wrapper
 .site-nav.active {
        
 }
+*/
 
-.container {
-       -webkit-transform: translate(0px, 0px);
-       -moz-transform: translate(0px, 0px);
-       -o-transform: translate(0px, 0px);
-       -ms-transform: translate(0px, 0px);
-       transform: translate(0px, 0px);
-       -webkit-transition: 0.15s ease;
-       -moz-transition: 0.15s ease;
-       -o-transition: 0.15s ease;
-       transition: 0.15s ease;  
+.navbar-default {
+    background: none;
+    border:none;
 }
 
-.container.active {
-     -webkit-transform: translate(-13.725em, 0px);
-       -moz-transform: translate(-13.725em, 0px);
-       -o-transform: translate(-13.725em, 0px);
-       -ms-transform: translate(-13.725em, 0px);
-       transform: translate(-13.725em, 0px);
+.navbar {
+    margin-top:10px;
 }
 
-
-.site-blog-nav {
-    line-height: 56px;
-    font-size:1.2em;
-    text-align: center;
-    .menu-icon {
-        display: none;
-    }
-
-    .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
-        
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
-        }
-    }
+.nav  {
+    font-size: 1.5em;
 }
-
 
 
 /**
@@ -179,9 +177,6 @@ Page Wrapper
 /**
  * Page content
  */
-.page-content {
-    border-top:1px dashed #CCC;
-}
 
 .page-heading {
     font-size: 20px;

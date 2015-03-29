@@ -5,8 +5,8 @@ layout: default
 <div class="home">
     
 
-{% for image in site.images limit:6 %}
-    {{ image.content }}
+{% for experiment in site.experiments limit:6 %}
+    {{ experiment.title}}
 {% endfor %}
 
 </div>

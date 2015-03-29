@@ -113,10 +113,10 @@ $large-devices:    1200px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
-        "layout",
         "syntax-highlighting",
         "fancybox",
         "justifiedgallery",
         "bootstrap",
-        "jasnybootstrap"
+        "jasnybootstrap",
+       "layout"
 ;

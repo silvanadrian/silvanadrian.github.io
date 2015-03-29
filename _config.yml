@@ -18,7 +18,10 @@ collections:
   images:
     output: true
     permalink: /gallery/:title.html
-    
+
+  experiments:
+    output: true
+    permalink: /experiment/:title.html  
     
 assets:
     sources:
