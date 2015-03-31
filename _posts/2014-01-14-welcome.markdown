@@ -1,14 +1,13 @@
 ---
 layout: page
-title:  "Silvan Adrian"
+title:  "Blogpost"
 date:   2015-01-14 13:33:44
 categories: Web Design, WebDevelopment
 ---
 
 
 
-Silvan Adrian
-
+Blogpost
 {% highlight ruby %}
 def print_hi(name)
   puts "Hi, #{name}"

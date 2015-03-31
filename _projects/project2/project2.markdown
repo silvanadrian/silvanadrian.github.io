@@ -4,9 +4,7 @@ title:  "Bujutsu Webseite"
 date:   2015-01-14 13:33:44
 categories: Web Design, WebDevelopment
 excerpt: "Meine Webseite ist auch ein ständiges Projekt, das nie ganz fertig werden will."
-alignment:
-backgroundclass: bj
-color: white
+size: 4
 link: "http://silvanadrian.ch"
 ---
 

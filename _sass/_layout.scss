@@ -15,7 +15,7 @@ body {
 }
 
 p {
-    font-size:1.5em;
+    font-size:1.2em;
     line-height: 1.5em;
 }
 
@@ -28,7 +28,7 @@ p {
 }
 
 .site-title {
-    font-size: 120px;
+    font-size: 90px;
     font-family: $titel-font;
     margin-bottom: 0;
     text-align: center;
@@ -38,6 +38,14 @@ p {
     &:visited {
         color: $grey-color-dark;
     }
+}
+
+.site-title a:link,.site-title a:visited {
+    color:#37383b;
+}
+
+.site-title a:hover {
+    color:#828282;
 }
 
 .menu-link {
@@ -56,13 +64,12 @@ p {
 }
 
 .site-blog-title {
-    font-size: 90px;
+    font-size: 80px;
     font-family: $titel-font;
     text-align: center;
     letter-spacing: -1px;
-    margin-bottom: 0;
+    margin-bottom: -20px;
     display: block;
-
     &,
     &:visited {
         color: $grey-color-dark;
@@ -85,45 +92,6 @@ p {
     color:#FFF;
 }
 
-/*
-.site-nav {
-    line-height: 56px;
-    font-size:1.3em;
-    font-family: $nav-font;
-    position: fixed;
-    top:0;
-    bottom:0;
-    height:100%;
-    right:-13.755em;
-    width: 13.755em;
-    background: #1a1a1a;
-    padding-left:20px;
-     -webkit-transform: translate(0px, 0px);
-        -moz-transform: translate(0px, 0px);
-        -o-transform: translate(0px, 0px);
-        -ms-transform: translate(0px, 0px);
-        transform: translate(0px, 0px);
-        -webkit-transition: 0.15s ease;
-        -moz-transition: 0.15s ease;
-        -o-transition: 0.15s ease;
-        transition: 0.15s ease;
-    .page-link {
-        color: #808080;
-        line-height: $base-line-height;
-        display: block;
-        // Gaps between nav items, but not on the first one
-      
-    }
-
-
-}
-
-
-.site-nav.active {
-       
-}
-*/
-
 .navbar-default {
     background: none;
     border:none;
@@ -137,6 +105,14 @@ p {
     font-size: 1.5em;
 }
 
+.navbar-toggle {
+    margin-right:15px;
+}
+
+.navbar-top {
+    position: absolute;
+    right:0;
+}
 
 /**
  * Site footer
@@ -184,11 +160,13 @@ p {
 
 
 .post {
-    padding:10px 0;
+    padding:0;
 }
 
 .post-list {
+    margin:10px 0;
     margin-left: 0;
+    background:#FFF;
     list-style: none;
 
     > li {
@@ -196,8 +174,17 @@ p {
     }
 }
 
+.sidebar {
+    margin:10px 0;
+    background:#FFF;
+}
+
 .project-content {
-    
+    margin:10px 0;
+}
+
+.project-content img {
+    width:100%;
 }
 
 .project-text {
@@ -240,9 +227,7 @@ p {
 **/
 
 .project {
-    position: relative;
-    padding:0;
-    margin:20px 0;
+position: relative;
 }
 
 .project:hover .projectoverlay {
@@ -265,12 +250,13 @@ p {
 .projectoverlay h2 {
     text-align: center;
     position: relative;
-    top: 50%;
+    top: 45%;
     transform: translateY(-50%);
 }
 
 .project-list {
     list-style: none;
+    margin:10px 0;
 }
 
 .project-heading {
@@ -338,93 +324,8 @@ p {
 }
 
 
-/* Media Queries */
 
 
 
 
-@include media-query($large-devices) {
-
-     .post {
-            padding:10px 0;
-            
-            
-        }
-    
-    
-     .post-list {
-            
-        }
-    
-      .site-nav {
-            font-size:1em;
-        }
-    
-     .page-content {
-            padding: 0 0;
-        }
-    
-    
-        .project {
-            margin:20px 2%;
-        }
-    
-   
-
-}
-
-
-@include media-query($medium-devices) {
- 
-    
-    body {
-        font-size: 16px !important;
-    }
-    
-   
-    
-    
-}
-
-
-
-
-@include media-query($tablets) {
-       
-    .site-nav {
-            margin-top: 0;
-       text-align: center;
-        width:100%;
-        display: block;
-        }
-    
-        .site-title {
-            width:100%;
-            text-align: center;
-        }
-     
-
-        .page-link {
-            display: inline;
-            padding: 5px 10px;
-        }
-    
-
-    
-
-    
-    
-    }
-
-
-@include media-query($small-devices) {
-
-}
-
-
-@include media-query($smartphone) {
-    
-   
-
-}
 

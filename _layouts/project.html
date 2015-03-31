@@ -1,16 +1,15 @@
 ---
 layout: default
----
-<div class="project-full">
-
-  <header class="project-header">
-        {{ content | singleprojectfilter: page.title , page.excerpt,  page.link, "Show the Site", page.backgroundclass, page.alignment }}
-  </header>
-
-    
-    
-  <article class="project-content">
-          {{ content }}
-  </article>
-
+--- 
+<article class="project-content">
+<div class="row">
+<div class="col-sm-6">
+<img src="{{ page.image }}">    
 </div>
+<div class="col-sm-6">
+  
+          {{ content }}
+  
+</div>
+</div>
+</article>

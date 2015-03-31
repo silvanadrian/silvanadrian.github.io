@@ -22,7 +22,10 @@ collections:
   experiments:
     output: true
     permalink: /experiment/:title.html  
-    
+
+sass:
+    style: :compressed
+
 assets:
     sources:
      - _assets/fonts

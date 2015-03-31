@@ -6,9 +6,9 @@ layout: default
     
 
   <ul class="project-list col-lg-12">
-    {% for project in site.projects limit:6 %}
+    {% for project in site.projects %}
       <li class="project">
-         <a href="{{project.url}}"> <img src="{{ project.image[forloop.index0] }}">
+         <a href="{{project.url}}"> <img src="{{ project.image }}">
           <div class="projectoverlay"><h2>{{project.title}}</h2></div>
           
           </a>

@@ -1,18 +1,19 @@
 ---
-layout: default
+layout: home
 ---
 
 <div class="container">
     
 <div class="row">
-  <ul class="project-list col-lg-12">
-    {% for project in site.projects limit:6 %}
-      <li class="project">
-         <a href="{{project.url}}"> <img src="{{ project.image[forloop.index0] }}">
+  <ul class="project-list">
+    {% for project in site.projects %}
+      <li class="col-md-{{#project.size}}">
+          <div class="project">
+         <a href="{{project.url}}"> <img src="{{ project.image }}">
           <div class="projectoverlay"><h2>{{project.title}}</h2></div>
           
           </a>
-          
+          </div>
       </li>
       
       
