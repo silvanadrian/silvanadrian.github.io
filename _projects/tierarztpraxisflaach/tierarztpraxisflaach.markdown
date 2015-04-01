@@ -8,7 +8,7 @@ link: "http://tierarztpraxisflaach.ch"
 size: 6
 name: tierarztpraxis
 frontimage:
-- /img/projects/tierarztpraxisflaach/tierarztpraxislogo.png
+- /img/projects/tierarztpraxisflaach/tierarztpraxislogo.jpg
 image:
 - /img/projects/tierarztpraxisflaach/tierarztpraxisflaach.jpg
 ---
