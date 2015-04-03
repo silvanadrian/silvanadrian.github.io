@@ -10,6 +10,8 @@ github_username:  silvanadrian
 # Build settings
 markdown: kramdown
 
+excerpt_separator: "<!--more-->"
+
 collections:
   projects:
     output: true
@@ -32,23 +34,3 @@ assets:
      - _assets/javascript
      - _assets/stylesheets
      - _assets/images
-     
-defaults:
-  -
-    scope:
-      path: _projects/en
-    values:
-      layout: default
-      lang: en
-  -
-    scope:
-      path: _projects/fr
-    values:
-      layout: default
-      lang: fr
-  -
-    scope:
-      path: _projects/zh
-    values:
-      layout: default
-      lang: zh

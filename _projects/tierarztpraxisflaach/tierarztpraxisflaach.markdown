@@ -1,16 +1,17 @@
 ---
 layout: project
 title:  "Tierarztpraxisflaach"
-date:   2015-04-01 10:33:00
+date:   2015-04-01
 categories: Web Design, WebDevelopment
 excerpt: ""
 link: "http://tierarztpraxisflaach.ch"
-size: 6
-name: tierarztpraxis
+size: 8
 frontimage:
 - /img/projects/tierarztpraxisflaach/tierarztpraxislogo.jpg
-image:
+sideimage:
 - /img/projects/tierarztpraxisflaach/tierarztpraxisflaach.jpg
+image:
+
 ---
 
 ##Tierarztpraxisflaach

@@ -1,10 +1,10 @@
 ---
 layout: default
 --- 
-<article class="project-content">
+<article class="page-content">
 <div class="row">
 <div class="col-lg-6">
-<img src="{{ page.image }}">    
+<img src="{{ page.sideimage }}">    
 </div>
 <div class="col-lg-6">
   
@@ -12,4 +12,13 @@ layout: default
   
 </div>
 </div>
+<div class="row">
+    {% for image in page.image %}   
+        <div class="text-center {{image.align}} col-lg-{{image.size}}">
+            <img src="{{image.url}}"/>
+        </div>
+    {%endfor%}
+
+</div>    
+
 </article>

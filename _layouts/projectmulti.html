@@ -1,0 +1,19 @@
+---
+layout: default
+--- 
+<article class="page-content">
+<div class="row">
+<div class="col-sm-4">
+          {{ content }}
+</div>
+
+    {% for image in page.image %}
+    <div class="col-sm-{{image.size}}">
+        <img src="{{ image.url }}"/>
+    </div>
+    {% endfor %}
+        
+
+
+</div>
+</article>

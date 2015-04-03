@@ -4,9 +4,10 @@ layout: photo
 
 <div class="container">
 <div id="photography">
-{% for image in site.images %}
-<a class="fancybox" rel="group1" href="{{ image.image }}" title="{{ image.image-alt }}">     
-    <img src="{{ image.image }}" alt="{{ image.image-alt }}">
+{% assign images = site.images | sort: 'date' | reverse %}
+{% for img in images %}
+<a class="fancybox" rel="group1" href="{{ img.url }}" title="{{ img.alt }}">     
+    <img src="{{ img.url }}" alt="{{ img.caption }}">
 
 </a>    
 

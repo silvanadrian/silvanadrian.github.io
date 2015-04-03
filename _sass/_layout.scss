@@ -8,9 +8,13 @@ Page Wrapper
     margin:0 auto;
 }
 
+.page-content {
+    margin:10px 0;
+}
+
 body {
     border-top:5px solid #121212;
-    background:#EFEFEF;
+    background:#f0efe8;
     font-size: 14px;
 }
 
@@ -260,7 +264,6 @@ position: relative;
 
 .project-list {
     list-style: none;
-    margin:10px 0;
 }
 
 .project-heading {
@@ -271,14 +274,11 @@ position: relative;
     width:100%;
 }
 
-
-
-@media only screen and (min-width : 320px) {
-      
-      
-    
-       
-    }
+.center-block {  
+  float:none;
+  margin-right: auto;  
+  margin-left: auto;  
+} 
 
 
 
@@ -299,8 +299,12 @@ position: relative;
     }
 }
 
+.spacing {
+    margin: 20px 0;
+}
+
 .post-content {
-    margin-bottom: $spacing-unit;
+    
 
     h2 {
         font-size: 32px;

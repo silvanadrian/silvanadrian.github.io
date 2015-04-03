@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-image: asdassad
+image: /img/about/see.jpg
 ---
 
 
