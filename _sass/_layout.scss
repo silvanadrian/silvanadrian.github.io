@@ -23,6 +23,11 @@ p {
     line-height: 1.5em;
 }
 
+:focus {
+    outline:0;
+    color:#CCC;
+}
+
 /**
  * Site header
  */
