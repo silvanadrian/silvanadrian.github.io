@@ -1,15 +1,11 @@
 <nav id="mynav" class="navmenu navmenu-inverse navmenu-fixed-right offcanvas" role="navigation">
-    <a class="navmenu-brand" href="#">Silvan Adrian</a>    
+    <h3 class="menu-brand">Silvan Adrian</h3>    
     <ul class="nav navmenu-nav">
-       <li> <a class="page-link" href="/">Projects</a></li>
+       <li> <a class="page-link" href="/"><i class="fa fa-briefcase"></i> Projects</a></li>
         <!-- <li><a class="page-link" href="/experiments">Experiments</a></li> -->
-        <li><a class="page-link" href="/photography">Photography</a></li>
-        {% for page in site.pages %}
-          {% if page.title %}
-          <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-          {% endif %}
-        {% endfor %}
-         <!-- <li><a class="page-link" href="http://blog.silvanadrian.ch">Blog</a></li> -->
+        <li><a class="page-link" href="/photography"><i class="fa fa-camera"></i> Photography</a></li>
+          <li><a class="page-link" href="/about"><i class="fa fa-user"></i> About</a></li>
+         <li><a class="page-link" href="http://blog.silvanadrian.ch"><i class="fa fa-pencil"></i> Blog</a></li>
         
   </ul>
     </nav>   

@@ -5,9 +5,7 @@ date:   2015-04-01
 categories: Web Design, WebDevelopment
 excerpt: ""
 link: "http://tierarztpraxisflaach.ch"
-size: 8
-frontimage:
-- /img/projects/tierarztpraxisflaach/tierarztpraxislogo.jpg
+frontimage: { url: '/img/projects/tierarztpraxisflaach/tierarztpraxislogo.jpg', lgsize: 8 , mdsize: 8, smsize: 8, xssize: }
 sideimage:
 - /img/projects/tierarztpraxisflaach/tierarztpraxisflaach.jpg
 image:
@@ -29,5 +27,5 @@ Web Design, Web Development, Photography
 <p class="label label-success">Online</p>
 
 ###Link
-<p><a class="btn btn-default" href="http://tierarztpraxisflaach.ch" role="button">http://tierarztpraxisflaach.ch</a></p>
+<p><a class="btn btn-default" target="_blank" href="http://tierarztpraxisflaach.ch" role="button">http://tierarztpraxisflaach.ch</a></p>
 
