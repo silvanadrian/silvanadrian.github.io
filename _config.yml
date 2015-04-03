@@ -4,8 +4,6 @@ email: hallo@silvanadrian.ch
 description: > #Web Designer & Entwickler
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://silvanadrian.ch" # the base hostname & protocol for your site
-twitter_username: svennebanan_
-github_username:  silvanadrian
 
 # Build settings
 markdown: kramdown
