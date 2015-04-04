@@ -6,8 +6,7 @@ layout: home
 <div class="row">
   <ul class="project-list">
     {% assign projects = site.projects | sort: 'date' | reverse %}
-    {% for project in projects %}
-    
+    {% for project in projects %}    
       <li class="col-lg-{{project.frontimage.lgsize}} col-md-{{project.frontimage.mdsize}} col-sm-{{project.frontimage.smsize}} col-xs-{{project.frontimage.xssize}}">
           <div class="project">
          <a href="{{project.url}}"> <img src="{{ project.frontimage.url }}" alt="project.title">
