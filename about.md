@@ -9,7 +9,7 @@ image: /img/about/about.jpg
 ##Short Biography
 Hi there I'm Silvan!  
 I'm a Computer Science Student and work as a Freelance Wordpress Developer beside that.  
-Here you will find my newest Projects/Expermiments and my Blog.
+Here you will find my newest Projects and my Blog.
 
 ## Networks
 <div class="col-lg-12 networks">
