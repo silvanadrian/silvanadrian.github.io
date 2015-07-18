@@ -5,7 +5,13 @@ description: > #Web Designer & Entwickler
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://silvanadrian.ch" # the base hostname & protocol for your site
 
-
+#Author Settings
+display_name: Silvan Adrian
+gravatar: 60fd5218fff6927c0ed376cce01c5460
+twitter: svennebanan_
+github: silvanadrian
+location: "Zürich, Switzerland"
+bio: Informatikstudent und teilzeitarbeitend als Wordpress Entwickler.
 # Build settings
 markdown: kramdown
 
@@ -33,3 +39,6 @@ assets:
      - _assets/javascript
      - _assets/stylesheets
      - _assets/images
+
+
+   

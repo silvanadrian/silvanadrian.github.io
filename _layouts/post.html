@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        
+          <article class="post col-lg-8 center-block">
+
+            <h1 class="post-title">{{ page.title }}</h1>
+            <span class="post-meta"><i class="fa fa-calendar"></i><time datetime="{{date format='YYYY-MM-DD'}}">{{ page.date | date: "%-d %B %Y" }}</time> 
+    <!-- {{#if tags}}| <i class="fa fa-tags"></i> {{tags separator=" , "}}{{/if}} --></span>
+            <section class="post-content">    
+                {{content}}
+            </section>
+
+            <footer class="post-footer">
+                <div class="center-block">
+                <section class="author">
+                
+                    <section class="col-lg-3 col-sm-2 col-xs-5">
+                    <figure class="post-author-avatar">
+                        <img src="/img/about/about.jpg" alt="{{site.display_name}}" />
+                    </figure>
+                    </section>
+                    <section class="col-lg-9 col-sm-9 col-xs-7">
+                    <h3 class="authorname">{{ site.display_name }}</h3>
+                    <p>{{site.bio}}</p>
+                    <ul class="author-meta clearfix">
+                        <li><i class="fa fa-map-marker"></i> {{site.location}}</li>
+                        <li><a href="{{author.website}}"><i class="fa fa-link"></i> {{site.url}}</a></li>
+                    </ul>
+                    </section>
+                
+                </section>
+                </div>
+                <section class="share col-lg-12">
+                    <h4>Share this post</h4>
+                    <a class="fa fa-twitter-square" href="https://twitter.com/share?text={{encode title}}&amp;url={{ site.url }}{{ page.url }}"
+                        onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                        <span class="hidden">Twitter</span>
+                    </a>
+                    <a class="fa fa-facebook-square" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"
+                        onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                        <span class="hidden">Facebook</span>
+                    </a>
+                    <a class="fa fa-google-plus-square" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}"
+                       onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                        <span class="hidden">Google+</span>
+                    </a>
+                </section>
+
+            </footer>
+
+        <div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'silvanadriansblog';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    </article>
+          
+          
+          
+          
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
