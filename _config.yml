@@ -1,9 +1,8 @@
 # Site settings
 title: Silvan Adrian
 email: hallo@silvanadrian.ch
-description: > #Web Designer & Entwickler
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://silvanadrian.ch" # the base hostname & protocol for your site
+description: "Web Designer & Entwickler"
+url: "http://silvanadrian.ch"
 
 #Author Settings
 display_name: Silvan Adrian
