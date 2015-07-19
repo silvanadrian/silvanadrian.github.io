@@ -67,7 +67,15 @@ p {
     position: fixed;
     top:50px;
     right:50px;
-    
+}
+
+.navbar-toggle .icon-bar {
+    width: 30px;
+    height:4px;
+}
+
+.navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 5px;
 }
 
 .site-logo {
