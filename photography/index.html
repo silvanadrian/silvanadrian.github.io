@@ -4,7 +4,7 @@ layout: photo
 
 <div class="container">
 <div id="photography">
-{% assign images = site.images | sort: 'date' | reverse %}
+{% assign images = site.images | sort: 'date' %}
 {% for img in images %}
     {% for photo in img.photos %}
         <a class="fancybox" rel="group1" href="{{ photo.link }}" title="{{ photo.alt }}">     
