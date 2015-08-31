@@ -26,6 +26,6 @@ Here you will find my newest Projects and my Blog.
 <div class="col-lg-6 networks">
 <h2>Curriculum Vitae</h2>
 <h3>
-<p><a href="https://www.sharelatex.com/github/repos/silvanadrian/cv/builds/latest/output.pdf" ><i class="fa fa-file-pdf-o"></i> CV</a></div></p>
+<p><a rel="nofollow" href="https://www.sharelatex.com/github/repos/silvanadrian/cv/builds/latest/output.pdf" ><i class="fa fa-file-pdf-o"></i> CV</a></div></p>
 </h3>
 </div>
