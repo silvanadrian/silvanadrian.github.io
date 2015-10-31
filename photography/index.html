@@ -16,4 +16,16 @@ layout: photo
 
 {% endfor %}
 </div>
+<div id="photography2">
+{% assign images = site.images | sort: 'date' %}
+{% for img in images %}
+    {% for photo in img.photos %}
+    <div class="photo">
+        <img src="{{ photo.link }}" alt="{{ photo.caption }}">
+    </div>
+    {% endfor %}
+   
+
+{% endfor %}
+</div>
 </div>

@@ -445,6 +445,15 @@ box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     margin: 20px 0;
 }
 
+/* Gallery */
+
+  #photography2 {
+         display: none;
+     }
+.photo {
+    margin:10px 0;
+}
+
  @media only screen and (max-width : 480px) {
      .projectoverlay {
         display: none;
@@ -453,8 +462,22 @@ box-shadow: 0 2px 4px rgba(0,0,0,0.1);
       .site-title {
          font-size:2.5em;
      }
+    
 
 }
+
+
+ @media only screen and (max-width : 560px) {
+
+
+    #photography {
+         display: none;
+     }
+     
+     #photography2 {
+         display: block;
+     }
+ }
 
 
  @media only screen and (max-width : 768px) {
