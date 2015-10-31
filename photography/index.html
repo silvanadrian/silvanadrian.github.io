@@ -19,7 +19,7 @@ layout: photo
 <div id="photography2">
 {% assign images = site.images | sort: 'date' %}
 {% for img in images %}
-    {% for photo in img.photos %}
+    {% for photo in img.photossm %}
     <div class="photo">
         <img src="{{ photo.link }}" alt="{{ photo.caption }}">
     </div>
