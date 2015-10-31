@@ -1,16 +1,13 @@
 ---
 layout: default
 --- 
-<article class="page-content">
+<article class="page-content col-lg-10 center-block">
 <div class="row">
-<div class="col-lg-9">
-<img src="{{ page.sideimage }}">    
-</div>
-<div class="col-lg-3">
-  
-          {{ content }}
-  
-</div>
+<h2 class="abouttitle">{{page.title}}</h2>
+
+    <img class="center-block" src="{{ page.sideimage }}">
+
+{{ content }}
 </div>
 <div class="row">
     {% for image in page.image %}   

@@ -12,20 +12,28 @@ image:
 
 ---
 
-##Tierarztpraxisflaach
-
 ###Description
 
-I was responsible for a redesign and the programming of the same.
-I also took all the photographs of the Team, so they could showcase each employee.
+I did a Redesign of the old Website, which was very old (still one of those old plain HTML Sites, which didn't look very nice).
+
+So I created a very minimalistic Design and built it upon Wordpress, so that the Customers will be able to handle the changes on their Website by themselves.
+
+Additionally I also did the Photographs of the Team, so they could but them online and have a nice Team Page to show off all the Employees.
 
 ###Type of work
 
-Web Design, Web Development, Photography
+Web Design  
+Web Development  
+Photography  
 
-###Status
-<p class="label label-success">Online</p>
+###Technologies
+
+Wordpress  
+CSS  
+HTML  
+PHP
 
 ###Link
-<p><a class="btn btn-default" target="_blank" href="http://tierarztpraxisflaach.ch" role="button">http://tierarztpraxisflaach.ch</a></p>
+The live Version of the Website is available here:  
+<a target="_blank" href="http://tierarztpraxisflaach.ch">http://tierarztpraxisflaach.ch</a>
 

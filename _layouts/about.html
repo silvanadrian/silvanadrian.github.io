@@ -8,21 +8,24 @@ layout: default
         <div class="col-sm-5 col-xs-8 aboutimage">
            <img src="{{ page.image }}"/>
         </div>
-    <section class="col-sm-7 col-xs-12 abouttext">
+   
+    
+    </section>
+
+ <section class="col-sm-8 col-xs-12 abouttext center-block">
         <article class="post-content">
     {{ content }}
   </article>   
         
     </section>
     
-    </section>
-    
     {% else %}
-<section class="row">
-    <article class="post-content">
+ <section class="col-lg-8 col-sm-8 col-xs-12 center-block">
+        <article class="post-content">
     {{ content }}
-  </article>
-</section>
+  </article>   
+        
+    </section>
     {% endif %}
 
 

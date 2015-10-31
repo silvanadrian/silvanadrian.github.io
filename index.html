@@ -1,23 +1,20 @@
 ---
-layout: home
+layout: default
+title: Blog
 ---
 
-<div class="container">    
-<div class="row">
-  <ul class="project-list">
-    {% assign projects = site.projects | sort: 'date' | reverse %}
-    {% for project in projects %}    
-      <li class="col-lg-{{project.frontimage.lgsize}} col-md-{{project.frontimage.mdsize}} col-sm-{{project.frontimage.smsize}} col-xs-{{project.frontimage.xssize}}">
-          <div class="project">
-         <a href="{{project.url}}"> <img src="{{ project.frontimage.url }}" alt="{{ project.title }}">
-          <div class="projectoverlay"><h2>{{project.title}}</h2></div>
-          
-          </a>
-          </div>
-      </li>
-      
-      
-    {% endfor %}
-  </ul>
-</div>
+<div class="home">
+    {% for post in site.posts %}
+<article class="post post-index col-lg-8 center-block">
+        <header class="post-header">
+            <h2 class="post-title"><a href="{{post.url}}">{{ post.title }}</a></h2>
+<span class="post-meta"><i class="fa fa-user"></i> {{site.display_name}}  |  <i class="fa fa-calendar"></i><time datetime="{{date format='YYYY-MM-DD'}}">{{ post.date | date: "%-d %B %Y" }}</time>
+    
+    <!-- {{#if tags}}| <i class="fa fa-tags"></i> {{tags separator=" , "}}{{/if}} --></span>
+        </header>
+        <section class="post-excerpt">
+            <p>{{ post.excerpt}}&hellip;</p>
+        </section>
+    </article>
+   {% endfor %} 
 </div>

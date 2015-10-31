@@ -13,10 +13,9 @@ image:
 
 ---
 
-##Logos
 
 ###Description
 
-Some Logos I did inluding my own.
+I did some Logos over the years sometimes for School Projects other times for myself or even just for fun.
 
 

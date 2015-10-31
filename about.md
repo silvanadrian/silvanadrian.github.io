@@ -2,30 +2,24 @@
 layout: about
 title: About
 permalink: /about/
-image: /img/about/about.jpg
 ---
 
 
-##Short Biography
-Hi there I'm Silvan!  
-I'm a Computer Science Student and work as a Freelance Wordpress Developer beside that.  
-Here you will find my newest Projects and my Blog.
+<h2 class="abouttitle">Hi. My Name is Silvan.</h2>
+I'm a 22 year-old Computer Science Student from Pfäffikon ZH. My current job I'm working on while studying is as a Wordpress Developer, as which I develop many diffrent kinds of Websites or maintain them.
+
+I write mostly about technology, programming, productivity or a side project.
+If you are interested in hearing more from me, subscribe to the <a target="_blank" href="http://silvanadrian.ch/feed.xml">RSS feed</a> or follow me on twitter as <a target="_blank" href="https://twitter.com/svennebanan_">@svennebanan_</a>.
+
+Or if you are interested in what I'm programming in my free time have a look around on my Github Account <a target="_blank" href="https://github.com/silvanadrian">silvanadrian</a>.
 
 
-<div class="col-lg-6 networks">
-<h2>Networks</h2>
-<h3>
-<p><a href="https://twitter.com/svennebanan_" ><i class="fa fa-twitter"></i> Twitter</a></div></p>
-<p><a href="https://github.com/silvanadrian"><i class="fa fa-github"></i> Github</a></p>
-<p><a href="mailto:hallo@silvanadrian.ch"><i class="fa fa-envelope"></i> Mail</a></p>
-</h3>
-</div>
+##Geekcode
+<p>-----BEGIN GEEK CODE BLOCK-----</p>
+<p>Version: 3.1</p>
+<p>GCS d-(+) s+: a-- C++$ !UL--- P L++>+++ E--- W+++$ !N* !o !K- w !O M+ !V PS+ PE- Y PGP+ !t !5 !X !R tv-- b+ DI+ !D G e h r y?</p>
+<p>------END GEEK CODE BLOCK------</p>
 
+##Curriculum Vitae
+Interested in the CV from me?! please write a mail at <a href="mailto:hallo@silvanadrian.ch">hallo@silvanadrian.ch</a>
 
-
-<div class="col-lg-6 networks">
-<h2>Curriculum Vitae</h2>
-<h3>
-<p><a rel="nofollow" href="https://www.sharelatex.com/github/repos/silvanadrian/cv/builds/latest/output.pdf" ><i class="fa fa-file-pdf-o"></i> CV</a></div></p>
-</h3>
-</div>

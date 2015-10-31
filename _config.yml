@@ -24,10 +24,7 @@ collections:
   images:
     output: true
     permalink: /gallery/:title.html
-
-  experiments:
-    output: true
-    permalink: /experiment/:title.html  
+ 
 
 sass:
     style: :compressed
@@ -38,6 +35,9 @@ assets:
      - _assets/javascript
      - _assets/stylesheets
      - _assets/images
+     
+gems:
+  - jemoji
 
 
    
