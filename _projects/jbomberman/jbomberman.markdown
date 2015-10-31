@@ -39,4 +39,4 @@ The latest Releases are also available at Github
 <a target="_blank" href="https://github.com/HSR-SE2Proj/JBomberman/releases">https://github.com/HSR-SE2Proj/JBomberman/releases</a>  
   
 Docker Container which puts everything together what the Server needs  
-<a target="_blank" href="https://github.com/silvanadrian/JBomberman-docker">https://github.com/silvanadrian/JBomberman-docker</a>
+<a target="_blank" href="https://github.com/silvanadrian/jbomb-docker">https://github.com/silvanadrian/jbomb-docker</a>
