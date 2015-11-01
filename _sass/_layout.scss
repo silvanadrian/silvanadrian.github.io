@@ -118,6 +118,8 @@ p {
 
 .nav  {
     font-size: 1.4em;
+    margin:0;
+    padding:0;
 }
 
 .navbar-toggle {
@@ -452,9 +454,15 @@ box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   #photography2 {
          display: none;
      }
+     
 .photo {
     margin:10px 0;
 }
+
+#myNavbar {
+	margin: 0;
+	padding:0;
+	}
 
  @media only screen and (max-width : 480px) {
      .projectoverlay {
