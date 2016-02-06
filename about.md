@@ -8,7 +8,7 @@ permalink: /about/
 <h2 class="abouttitle">Hi. My Name is Silvan.</h2>
 I'm a 23 year-old Computer Science Student from Pfäffikon ZH. My current job I'm working on while studying is as a Frontend Developer, as which I develop many different kinds of Websites or maintain them.
 
-I try write mostly about technology, programming, productivity or a side project.
+I try to write mostly about technology, programming, productivity or a side project.
 If you are interested in hearing more from me, subscribe to the <a target="_blank" href="http://silvanadrian.ch/feed.xml">RSS feed</a> or follow me on twitter as <a target="_blank" href="https://twitter.com/svennebanan_">@svennebanan_</a>.
 
 Or if you are interested in what I'm programming in my free time have a look around on my Github Account <a target="_blank" href="https://github.com/silvanadrian">silvanadrian</a>.
