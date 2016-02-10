@@ -7,25 +7,10 @@ layout: photo
 {% assign images = site.images | sort: 'date' %}
 {% for img in images %}
     {% for photo in img.photos %}
-        <a class="fancybox" rel="group1" href="{{ photo.link }}" title="{{ photo.alt }}">     
-    <img src="{{ photo.link }}" alt="{{ photo.caption }}">
-
-</a> 
+    <a class="fancybox" rel="group1" href="{{ photo.big }}" title="{{ photo.alt }}">
+      <img src="{{ photo.small }}" alt="{{ photo.caption }}">
+    </a>
     {% endfor %}
-   
-
-{% endfor %}
-</div>
-<div id="photography2">
-{% assign images = site.images | sort: 'date' %}
-{% for img in images %}
-    {% for photo in img.photossm %}
-    <div class="photo">
-        <img src="{{ photo.link }}" alt="{{ photo.caption }}">
-    </div>
-    {% endfor %}
-   
-
 {% endfor %}
 </div>
 </div>

@@ -1,7 +1,9 @@
 # Site settings
 title: Silvan Adrian
 email: hallo@silvanadrian.ch
-description: "Web Designer & Entwickler"
+description: "Hello and Welcome to the online Home of Switzerland based Frontend Developer Silvan Adrian"
+photography: "Travel Photography and my Photographs I took over the years"
+projectshead: "My Projects I did over the years"
 url: "http://silvanadrian.ch"
 
 #Author Settings
@@ -10,7 +12,7 @@ gravatar: 60fd5218fff6927c0ed376cce01c5460
 twitter: svennebanan_
 github: silvanadrian
 location: "Zürich, Switzerland"
-bio: Informatikstudent und teilzeitarbeitend als Wordpress Entwickler.
+bio: Computer Science Student and part-time Frontend Developer.
 # Build settings
 markdown: kramdown
 
@@ -20,11 +22,11 @@ collections:
   projects:
     output: true
     permalink: /projects/:title.html
-    
+
   images:
     output: true
     permalink: /gallery/:title.html
- 
+
 
 sass:
     style: :compressed
@@ -35,9 +37,6 @@ assets:
      - _assets/javascript
      - _assets/stylesheets
      - _assets/images
-     
+
 gems:
   - jemoji
-
-
-   

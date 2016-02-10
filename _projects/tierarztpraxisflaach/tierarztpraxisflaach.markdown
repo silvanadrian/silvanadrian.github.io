@@ -3,7 +3,7 @@ layout: project
 title:  "Tierarztpraxisflaach"
 date:   2015-04-01
 categories: Web Design, WebDevelopment
-excerpt: ""
+excerpt: "Redesign of the old Tierarztpraxisflaach Website"
 link: "http://tierarztpraxisflaach.ch"
 frontimage: { url: '/img/projects/tierarztpraxisflaach/tierarztpraxislogo.jpg', lgsize: 8 , mdsize: 8, smsize: 8, xssize: }
 sideimage:
@@ -36,4 +36,3 @@ PHP
 ###Link
 The live Version of the Website is available here:  
 <a target="_blank" href="http://tierarztpraxisflaach.ch">http://tierarztpraxisflaach.ch</a>
-

@@ -2,6 +2,7 @@
 layout: about
 title: About
 permalink: /about/
+excerpt: "I’m a 23 year-old Computer Science Student and part-time Frontend Developer."
 ---
 
 

@@ -3,7 +3,7 @@ layout: project
 title:  "JBomberman"
 date:   2015-07-19
 categories: Web Design, WebDevelopment
-excerpt: ""
+excerpt: "A very minimalistic Clone of the Game Bomberman written in Java"
 github-url: "https://github.com/HSR-SE2Proj/JBomberman"
 link: "http://tierarztpraxisflaach.ch"
 frontimage: { url: '/img/projects/jbomberman/jbomberman.jpg', lgsize: 12 , mdsize: 12, smsize: 12, xssize: }

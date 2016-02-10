@@ -463,9 +463,6 @@ box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 
 /* Gallery */
 
-  #photography2 {
-         display: none;
-     }
 
 .photo {
     margin:10px 0;
@@ -490,15 +487,9 @@ box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 
 
  @media only screen and (max-width : 600px) {
-
-
-    #photography {
-         display: none;
-     }
-
-     #photography2 {
-         display: block;
-     }
+   #photography img {
+     margin: 10px 0;
+   }
  }
 
 
