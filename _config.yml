@@ -40,3 +40,4 @@ assets:
 
 gems:
   - jemoji
+  - jekyll-sitemap
