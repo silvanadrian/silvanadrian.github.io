@@ -3,6 +3,7 @@ layout: default
 category: photo
 title: 'Silvan Adrian Photography'
 date: 2013-08-13 10:01
+sitemap: false
 photos:
 - { big: '/img/gallery/IMG_5187.jpg', small: '/img/gallerysmall/IMG_5187.jpg', alt: 'Fish Market', caption: 'Fish Market' }
 - { big: '/img/gallery/IMG_5094.jpg', small: '/img/gallerysmall/IMG_5094.jpg', alt: 'Tuna', caption: 'Tuna' }
