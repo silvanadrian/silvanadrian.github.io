@@ -5,7 +5,6 @@ date:   2015-07-19
 categories: Web Design, WebDevelopment
 excerpt: "A very minimalistic Clone of the Game Bomberman written in Java"
 github-url: "https://github.com/HSR-SE2Proj/JBomberman"
-link: "http://tierarztpraxisflaach.ch"
 frontimage: { url: '/img/projects/jbomberman/jbomberman.jpg', lgsize: 12 , mdsize: 12, smsize: 12, xssize: }
 sideimage:
 - /img/projects/jbomberman/spielfeld.png
@@ -13,7 +12,7 @@ image:
 
 ---
 
-###Description
+<h3>Description</h3>
 
 A very minimalistic Clone of the Game Bomberman written in Java -> that's why there is a J :smiley:.
 
@@ -22,17 +21,17 @@ Well a Game has 3 rounds and whoever has the highest score will be the winner an
 The Game can be played by up to 4 Players, but a Server is needed which supports RabbitMQ (there is a Docker Container, which can be used).
 
 
-###Type of work
+<h3>Type of work</h3>
 
 Design  
 Development
 
-###Technologies
+<h3>Technologies</h3>
 Java  
 Java2D  
 RabbitMQ
 
-###Links
+<h3>Links</h3>
 The Source Code of the Project is hosted on Github and licensed  under the MIT License   
 <a target="_blank" href="https://github.com/HSR-SE2Proj/JBomberman">https://github.com/HSR-SE2Proj/JBomberman</a>
 
