@@ -14,11 +14,11 @@ If you are interested in hearing more from me, subscribe to the <a target="_blan
 
 Or if you are interested in what I'm programming in my free time have a look around on my Github Account <a target="_blank" href="https://github.com/silvanadrian">silvanadrian</a>.
 
-<h2>Curriculum Vitae</h2>
+##Curriculum Vitae
 
 Interested in the CV from me?! please write a mail at <a href="mailto:hallo@silvanadrian.ch">hallo@silvanadrian.ch</a>
 
-<h2>Other Stuff</h2>
+##Other Stuff
 
 Sometimes I also write Travel Blogs.
 

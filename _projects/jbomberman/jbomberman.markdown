@@ -12,7 +12,7 @@ image:
 
 ---
 
-<h3>Description</h3>
+###Description
 
 A very minimalistic Clone of the Game Bomberman written in Java -> that's why there is a J :smiley:.
 
@@ -21,17 +21,17 @@ Well a Game has 3 rounds and whoever has the highest score will be the winner an
 The Game can be played by up to 4 Players, but a Server is needed which supports RabbitMQ (there is a Docker Container, which can be used).
 
 
-<h3>Type of work</h3>
+###Type of work
 
 Design  
 Development
 
-<h3>Technologies</h3>
+###Technologies
 Java  
 Java2D  
 RabbitMQ
 
-<h3>Links</h3>
+###Links
 The Source Code of the Project is hosted on Github and licensed  under the MIT License   
 <a target="_blank" href="https://github.com/HSR-SE2Proj/JBomberman">https://github.com/HSR-SE2Proj/JBomberman</a>
 

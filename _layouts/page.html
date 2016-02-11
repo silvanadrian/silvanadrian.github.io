@@ -3,28 +3,24 @@ layout: default
 ---
 
 
-    {% if page.image %}    
+    {% if page.image %}
     <section class="row">
         <div class="col-sm-6">
            <img src="{{ page.image }}"/>
         </div>
     <section class="col-sm-6">
         <article class="post-content">
-    {{ content }}
-  </article>   
-        
+    {{ page.content }}
+  </article>
+
     </section>
-    
+
     </section>
-    
+
     {% else %}
 <section class="row">
     <article class="post-content">
-    {{ content }}
+    {{ page.content }}
   </article>
 </section>
     {% endif %}
-
-
-
-
