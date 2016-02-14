@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Tierarztpraxisflaach"
-date:   2015-04-01
+date:   2015-04-01 13:33:44
 categories: Web Design, WebDevelopment
 excerpt: "Redesign of the old Tierarztpraxisflaach Website"
 link: "http://tierarztpraxisflaach.ch"

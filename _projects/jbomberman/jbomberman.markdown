@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "JBomberman"
-date:   2015-07-19
+date:   2015-07-19 13:33:44
 categories: Web Design, WebDevelopment
 excerpt: "A very minimalistic Clone of the Game Bomberman written in Java"
 github-url: "https://github.com/HSR-SE2Proj/JBomberman"

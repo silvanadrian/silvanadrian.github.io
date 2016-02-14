@@ -1,7 +1,7 @@
 ---
 layout: projectmulti
 title:  "Logos"
-date:   2015-03-31
+date:   2015-03-31 13:33:44
 categories: Web Design, WebDevelopment
 excerpt: "Some Logos I did over the years sometimes for School Projects other times for myself or even just for fun."
 frontimage: { url: '/img/projects/logos/logos.jpg', lgsize: 4, mdsize: 4, smsize: 4, xssize: 6 }

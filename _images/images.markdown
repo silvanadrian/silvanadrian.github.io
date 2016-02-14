@@ -43,4 +43,5 @@ photos:
 - { big: '/img/gallery/IMG_0391.jpg', small: '/img/gallerysmall/IMG_0391.jpg', alt: 'Winter landscape', caption: 'Winter landscape' }
 - { big: '/img/gallery/IMG_0374.jpg', small: '/img/gallerysmall/IMG_0374.jpg', alt: 'Winter tree', caption: 'Winter tree' }
 - { big: '/img/gallery/IMG_0355.jpg', small: '/img/gallerysmall/IMG_0355.jpg', alt: 'Leafs', caption: 'Leafs' }
+
 ---
