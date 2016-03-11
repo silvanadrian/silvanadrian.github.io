@@ -2,5 +2,5 @@
 layout: gallery
 title: Photography
 permalink: /photography/
-excerpt: "I’m a 23 year-old Computer Science Student and part-time Frontend Developer"
+excerpt: "Photos I did over the years on holidays or just for fun."
 ---
