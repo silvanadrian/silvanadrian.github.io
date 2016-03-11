@@ -7,11 +7,14 @@ github-url: "https://github.com/silvanadrian/loremimg"
 frontimage: { url: '/img/projects/loremimg/lorempixel.png', lgsize: 12 , mdsize: 12, smsize: 12, xssize: }
 sideimage: '/img/projects/loremimg/lorempixel.png'
 ---
-###Description
+<h3>Description</h3>
 
 A very simple REST API which can return uploaded Images in every Size needed.
 Each Image belongs to a Category and has a name over which it can specifically be called.
 
+```
+http://example.com/<name>/
+```
 
 
 

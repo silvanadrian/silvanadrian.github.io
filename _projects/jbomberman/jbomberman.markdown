@@ -10,7 +10,7 @@ sideimage:
 - /img/projects/jbomberman/spielfeld.png
 ---
 
-###Description
+<h3>Description</h3>
 
 A very minimalistic Clone of the Game Bomberman written in Java -> that's why there is a J :smiley:.
 
