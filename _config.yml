@@ -15,6 +15,9 @@ location: "Zürich, Switzerland"
 bio: Computer Science Student and part-time Frontend Developer.
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 excerpt_separator: "<!--more-->"
 
