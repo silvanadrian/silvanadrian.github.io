@@ -9,12 +9,12 @@ sideimage:
 - '/img/projects/loremimg/lorempixel.png'
 ---
 
-###Description
+<h3>Description</h3>
 
 A very simple REST API which can return uploaded Images in every Size needed (inspired by lorempixel).  
 Each Image belongs to a Category and has a name (unique) which allows to choose the image to show with it's name.
 
-####Homepage
+<h4>Homepage</h4>
 Returns Random full Image
 
 ```
