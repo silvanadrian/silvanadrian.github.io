@@ -8,22 +8,23 @@ frontimage: { url: '/img/projects/loremimg/lorempixel.png', lgsize: 12 , mdsize:
 sideimage:
 - '/img/projects/loremimg/lorempixel.png'
 ---
-<h3>Description</h3>
+
+###Description
 
 A very simple REST API which can return uploaded Images in every Size needed (inspired by lorempixel).  
 Each Image belongs to a Category and has a name (unique) which allows to choose the image to show with it's name.
 
-<h4>Homepage</h4>
+####Homepage
 Returns Random full Image
 
-```ApacheConf
+```
 GET http://example.com/
 ```
 <br>
 <h4>Full Image</h4>
 Returns full Image from the name (unique)
 
-```ApacheConf
+```
 GET http://example.com/<name>/
 ```
 <br>
