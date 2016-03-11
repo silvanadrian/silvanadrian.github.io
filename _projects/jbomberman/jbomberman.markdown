@@ -8,11 +8,9 @@ github-url: "https://github.com/HSR-SE2Proj/JBomberman"
 frontimage: { url: '/img/projects/jbomberman/jbomberman.jpg', lgsize: 12 , mdsize: 12, smsize: 12, xssize: }
 sideimage:
 - /img/projects/jbomberman/spielfeld.png
-image:
-
 ---
 
-<h3>Description</h3>
+###Description
 
 A very minimalistic Clone of the Game Bomberman written in Java -> that's why there is a J :smiley:.
 
