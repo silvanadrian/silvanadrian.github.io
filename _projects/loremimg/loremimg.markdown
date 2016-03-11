@@ -16,13 +16,16 @@ Each Image belongs to a Category and has a name (unique) which allows to choose 
 <h4>Homepage</h4>
 Returns Random full Image
 
+```ApacheConf
 GET http://example.com/
-
+```
+<br>
 <h4>Full Image</h4>
 Returns full Image from the name (unique)  
-
+```ApacheConf
 GET http://example.com/<name>/
-
+```
+<br>
 <h4>Square Image</h4>
 Returns one of the uploaded Images as a Square Image (random)
 
