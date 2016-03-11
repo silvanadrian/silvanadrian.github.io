@@ -24,9 +24,9 @@ Additionally I also did the Photographs of the Team, so they could but them onli
 
 Web Design  
 Web Development  
-Photography  
+Photography
 
-### Technologies
+### Technologies
 
 Wordpress  
 CSS  

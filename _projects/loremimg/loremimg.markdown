@@ -110,5 +110,5 @@ Django REST framework
 
 ### Links
 
-The Source Code of the Project is hosted on Github
+The Source Code of the Project is hosted on Github  
 [Github loremimg](https://github.com/silvanadrian/loremimg)
