@@ -1,3 +1,3 @@
-## Repository for my own Website (silvanadrian.ch)
+## Repository for my  Website (silvanadrian.ch)
 
 Builded the whole site upon Jekyll
