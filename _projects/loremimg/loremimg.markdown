@@ -9,75 +9,86 @@ sideimage:
 - '/img/projects/loremimg/lorempixel.png'
 ---
 
-<h3>Description</h3>
+### Description ###
+
 
 A very simple REST API which can return uploaded Images in every Size needed (inspired by lorempixel).  
 Each Image belongs to a Category and has a name (unique) which allows to choose the image to show with it's name.
 
-<h4>Homepage</h4>
+#### Homepage
+
 Returns Random full Image
 
 ```
 GET http://example.com/
 ```
-<br>
-<h4>Full Image</h4>
+
+####  Full Image
+
 Returns full Image from the name (unique)
 
 ```
 GET http://example.com/<name>/
 ```
-<br>
-<h4>Square Image</h4>
+
+#### Square Image
+
 Returns one of the uploaded Images as a Square Image (random)
 
 ```
 GET http://example.com/<width>/
 ```
-<br>
-<h4>Square Image Specific</h4>
+
+#### Square Image Specific
+
 Returns specific Image as Square Image
 
 ```
 GET http://example.com/<width>/<name>/
 ```
-<br>
-<h4>Rectangle Image</h4>
+
+#### Rectangle Image
+
 Returns one of the uploaded Images as a Rectangle Image (random)
 
 ```
 GET http://example.com/<width>/<height>/
 ```
-<br>
-<h4>Rectangle Image Specific</h4>
+
+#### Rectangle Image Specific
+
 Returns Specific Image as Rectangle Image
 
 ```
 GET http://example.com/<width>/<height>/<name>
 ```
-<br>
-<h4>Category</h4>
+
+#### Category
+
 Returns Random full Image from Category
 
 ```
 GET http://example.com/category/<category>/
 ```
-<br>
-<h4>Category Square</h4>
+
+#### Category Square
+
 Returns Random square Image from Category
 
 ```
 GET http://example.com/category/<category>/<width>/
 ```
-<br>
-<h4>Category Rectangle</h4>
+
+
+#### Category Rectangle
+
 Returns Random rectangle Image from Category
 
 ```
 GET http://example.com/category/<category>/<width>/<height>/
 ```
-<br>
-<h4>Example Usages</h4>
+
+#### Example Usages
 
 ```html
 <img src="http://example.com/200/" />
@@ -86,15 +97,18 @@ GET http://example.com/category/<category>/<width>/<height>/
 <img src="http://example.com/category/various/200/" />
 <img src="http://example.com/category/various/200/400" />
 ```
-<h3>Type of work</h3>
+
+### Type of work
 
 Development
 
-<h3>Technologies</h3>
+### Technologies
+
 Python  
 Django  
 Django REST framework
 
-<h3>Links</h3>
-The Source Code of the Project is hosted on Github   
-<a target="_blank" href="https://github.com/silvanadrian/loremimg">Github loremimg</a>
+### Links
+
+The Source Code of the Project is hosted on Github
+[Github loremimg](https://github.com/silvanadrian/loremimg)
