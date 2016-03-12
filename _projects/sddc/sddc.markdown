@@ -33,7 +33,7 @@ Abstraction for Services, Ordered Services and Service Modules.
 
 Return List with all Services
 
-```
+```API Blueprint
 GET http://example.com/api/services
 ```
 
@@ -159,7 +159,7 @@ delete(Identifier identifier)
 ##### GetInformations
 Gets All Possible informations for a Resource (RAM, vCpus, Disk Size).
 
-```java
+```
 getInformations(Identifier identifier)
 ```
 
