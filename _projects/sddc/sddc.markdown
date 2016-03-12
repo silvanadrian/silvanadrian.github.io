@@ -39,7 +39,7 @@ GET http://example.com/api/services
 
 Create new Service
 
-```HTTP
+```
 POST http://example.com/api/services/new
 ```
 
