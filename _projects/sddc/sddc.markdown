@@ -156,7 +156,8 @@ Deletes Resource according to *Identifier*.
 void delete(Identifier identifier);
 ```
 
-##### GetInformations
+##### Get Informations
+
 Gets All Possible informations for a Resource (RAM, vCpus, Disk Size).
 
 ```java
