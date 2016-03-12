@@ -32,31 +32,37 @@ Abstraction for Services, Ordered Services and Service Modules.
 #### Service
 
 Return List with all Services
+
 ```
 GET http://example.com/api/services
 ```
 
 Create new Service
+
 ```
 POST http://example.com/api/services/new
 ```
 
 Order Service
+
 ```
 POST http://example.com/api/services/{id}
 ```
 
 Update Service
+
 ```
 PUT http://example.com/api/services/{id}
 ```
 
 Get Service
+
 ```
 GET http://example.com/api/services/{id}
 ```
 
 Delete Service
+
 ```
 DELETE http://example.com/api/services/{id}
 ```
@@ -64,16 +70,19 @@ DELETE http://example.com/api/services/{id}
 #### OrderedService
 
 Get OrderedServices
+
 ```
 GET http://example.com/api/orderedservices
 ```
 
 Get OrderedService
+
 ```
 GET http://example.com/api/orderedservices/{id}
 ```
 
 Cancel OrderedService
+
 ```
 DELETE http://example.com/api/orderedservices/{id}
 ```
@@ -81,41 +90,49 @@ DELETE http://example.com/api/orderedservices/{id}
 #### ServiceModule
 
 Get ServiceModules
+
 ```
 GET http://example.com/api/servicemodules
 ```
 
 Get ServiceModule
+
 ```
 GET http://example.com/api/servicemodules/{id}
 ```
 
 Update ServiceModule
+
 ```
 PUT http://example.com/api/servicemodules/{id}
 ```
 
 Delete ServiceModule
+
 ```
 DELETE http://example.com/api/servicemodules/{id}
 ```
 
 Create ServiceModule
+
 ```
 POST http://example.com/api/servicemodules/new
 ```
 
 Get all Providers which are suported by the libaries
+
 ```
 GET http://example.com/api/servicemodules/providers
 ```
 
 Get all Sizes
+
 ```
 GET http://example.com/api/servicemodules/sizes
 ```
 
 Get all Categories
+
 ```
 GET http://example.com/api/servicemodules/caegories
 ```
@@ -135,14 +152,14 @@ create(ServiceModule module)
 ##### Delete
 Deletes Resource according to *Identifier*.
 
-```
+```java
 delete(Identifier identifier)
 ```
 
 ##### GetInformations
 Gets All Possible informations for a Resource (RAM, vCpus, Disk Size).
 
-```
+```java
 getInformations(Identifier identifier)
 ```
 
