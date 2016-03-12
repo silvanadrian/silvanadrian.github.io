@@ -46,25 +46,25 @@ POST http://example.com/api/services/new
 Order Service
 
 ```nginx
-POST http://example.com/api/services/{id}
+POST http://example.com/api/services/<id>
 ```
 
 Update Service
 
 ```nginx
-PUT http://example.com/api/services/{id}
+PUT http://example.com/api/services/<id>
 ```
 
 Get Service
 
 ```nginx
-GET http://example.com/api/services/{id}
+GET http://example.com/api/services/<id>
 ```
 
 Delete Service
 
 ```nginx
-DELETE http://example.com/api/services/{id}
+DELETE http://example.com/api/services/<id>
 ```
 
 #### OrderedService
@@ -78,13 +78,13 @@ GET http://example.com/api/orderedservices
 Get OrderedService
 
 ```nginx
-GET http://example.com/api/orderedservices/{id}
+GET http://example.com/api/orderedservices/<id>
 ```
 
 Cancel OrderedService
 
 ```nginx
-DELETE http://example.com/api/orderedservices/{id}
+DELETE http://example.com/api/orderedservices/<id>
 ```
 
 #### ServiceModule
@@ -98,19 +98,19 @@ GET http://example.com/api/servicemodules
 Get ServiceModule
 
 ```nginx
-GET http://example.com/api/servicemodules/{id}
+GET http://example.com/api/servicemodules/<id>
 ```
 
 Update ServiceModule
 
 ```nginx
-PUT http://example.com/api/servicemodules/{id}
+PUT http://example.com/api/servicemodules/<id>
 ```
 
 Delete ServiceModule
 
 ```nginx
-DELETE http://example.com/api/servicemodules/{id}
+DELETE http://example.com/api/servicemodules/<id>
 ```
 
 Create ServiceModule
