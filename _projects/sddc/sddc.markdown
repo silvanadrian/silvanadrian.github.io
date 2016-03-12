@@ -145,21 +145,21 @@ This is the API which makes the calls on the libaries (libvirt).
 ##### Create
 Creates Resource according to Configfile from Module.
 
-```Java
-	Identifier create(ServiceModule module);
+```java
+Identifier create(ServiceModule module);
 ```
 
 ##### Delete
 Deletes Resource according to *Identifier*.
 
-```Java
+```java
 void delete(Identifier identifier);
 ```
 
 ##### GetInformations
 Gets All Possible informations for a Resource (RAM, vCpus, Disk Size).
 
-```Java
+```java
 Map<String, String> getInformations(Identifier identifier);
 ```
 
