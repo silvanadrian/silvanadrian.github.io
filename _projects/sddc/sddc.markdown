@@ -33,7 +33,7 @@ Abstraction for Services, Ordered Services and Service Modules.
 
 Return List with all Services
 
-```yaml
+```nginx
 GET http://example.com/api/services
 ```
 
