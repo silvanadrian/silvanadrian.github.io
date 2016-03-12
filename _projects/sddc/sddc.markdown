@@ -4,7 +4,7 @@ title:  "Software Defined Data Center"
 date:   2016-01-11 13:33:44
 excerpt: "REST API to create Compute, Network, Storage Resources"
 github-url: "https://github.com/hsr-sa-hs15-sddc/SDDC"
-frontimage: { url: '/img/projects/sddc/sddc.png', lgsize: 12 , mdsize: 12, smsize: 12, xssize: }
+frontimage: { url: '/img/projects/sddc/SDDC.png', lgsize: 12 , mdsize: 12, smsize: 12, xssize: }
 sideimage:
 - '/img/projects/sddc/admin-dashboard.png'
 ---
