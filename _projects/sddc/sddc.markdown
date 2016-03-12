@@ -33,7 +33,7 @@ Abstraction for Services, Ordered Services and Service Modules.
 
 Return List with all Services
 
-```HTTP
+```http
 GET http://example.com/api/services
 ```
 
@@ -77,7 +77,7 @@ GET http://example.com/api/orderedservices
 
 Get OrderedService
 
-```
+```HTTP
 GET http://example.com/api/orderedservices/{id}
 ```
 
