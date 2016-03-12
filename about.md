@@ -8,7 +8,7 @@ excerpt: "I’m a 23 year-old Computer Science Student and part-time Frontend De
 
 <h2 class="abouttitle">Hi. My Name is Silvan.</h2>
 
-I'm a 23 year-old Computer Science Student from Pfäffikon ZH. My current job I'm working on while studying is as a Frontend Developer, as which I develop many different kinds of Websites or maintain them.
+I'm a 23 year-old Computer Science Student from Pfäffikon ZH. My current job I'm working on while studying is as a Frontend Developer, as which I develop different kinds of Websites or maintain them.
 
 I try to write mostly about technology, programming, productivity or a side project.
 If you are interested in hearing more from me, subscribe to the [RSS feed](http://silvanadrian.ch/feed.xml)
