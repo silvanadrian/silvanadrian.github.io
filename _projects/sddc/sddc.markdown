@@ -39,31 +39,31 @@ GET http://example.com/api/services
 
 Create new Service
 
-```
+```HTTP
 POST http://example.com/api/services/new
 ```
 
 Order Service
 
-```
+```HTTP
 POST http://example.com/api/services/{id}
 ```
 
 Update Service
 
-```
+```HTTP
 PUT http://example.com/api/services/{id}
 ```
 
 Get Service
 
-```
+```HTTP
 GET http://example.com/api/services/{id}
 ```
 
 Delete Service
 
-```
+```HTTP
 DELETE http://example.com/api/services/{id}
 ```
 
@@ -71,7 +71,7 @@ DELETE http://example.com/api/services/{id}
 
 Get OrderedServices
 
-```
+```HTTP
 GET http://example.com/api/orderedservices
 ```
 
@@ -83,7 +83,7 @@ GET http://example.com/api/orderedservices/{id}
 
 Cancel OrderedService
 
-```
+```HTTP
 DELETE http://example.com/api/orderedservices/{id}
 ```
 
@@ -91,49 +91,49 @@ DELETE http://example.com/api/orderedservices/{id}
 
 Get ServiceModules
 
-```
+```HTTP
 GET http://example.com/api/servicemodules
 ```
 
 Get ServiceModule
 
-```
+```HTTP
 GET http://example.com/api/servicemodules/{id}
 ```
 
 Update ServiceModule
 
-```
+```HTTP
 PUT http://example.com/api/servicemodules/{id}
 ```
 
 Delete ServiceModule
 
-```
+```HTTP
 DELETE http://example.com/api/servicemodules/{id}
 ```
 
 Create ServiceModule
 
-```
+```HTTP
 POST http://example.com/api/servicemodules/new
 ```
 
 Get all Providers which are suported by the libaries
 
-```
+```HTTP
 GET http://example.com/api/servicemodules/providers
 ```
 
 Get all Sizes
 
-```
+```HTTP
 GET http://example.com/api/servicemodules/sizes
 ```
 
 Get all Categories
 
-```
+```HTTP
 GET http://example.com/api/servicemodules/caegories
 ```
 
@@ -146,21 +146,21 @@ This is the API which makes the calls on the libaries (libvirt).
 Creates Resource according to Configfile from Module.
 
 ```Java
-create(ServiceModule module)
+	Identifier create(ServiceModule module);
 ```
 
 ##### Delete
 Deletes Resource according to *Identifier*.
 
 ```Java
-delete(Identifier identifier)
+void delete(Identifier identifier);
 ```
 
 ##### GetInformations
 Gets All Possible informations for a Resource (RAM, vCpus, Disk Size).
 
 ```Java
-getInformations(Identifier identifier)
+Map<String, String> getInformations(Identifier identifier);
 ```
 
 
