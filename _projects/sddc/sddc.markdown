@@ -39,31 +39,31 @@ GET http://example.com/api/services
 
 Create new Service
 
-```HTTP
+```nginx
 POST http://example.com/api/services/new
 ```
 
 Order Service
 
-```HTTP
+```nginx
 POST http://example.com/api/services/{id}
 ```
 
 Update Service
 
-```HTTP
+```nginx
 PUT http://example.com/api/services/{id}
 ```
 
 Get Service
 
-```HTTP
+```nginx
 GET http://example.com/api/services/{id}
 ```
 
 Delete Service
 
-```HTTP
+```nginx
 DELETE http://example.com/api/services/{id}
 ```
 
@@ -71,19 +71,19 @@ DELETE http://example.com/api/services/{id}
 
 Get OrderedServices
 
-```HTTP
+```nginx
 GET http://example.com/api/orderedservices
 ```
 
 Get OrderedService
 
-```HTTP
+```nginx
 GET http://example.com/api/orderedservices/{id}
 ```
 
 Cancel OrderedService
 
-```HTTP
+```nginx
 DELETE http://example.com/api/orderedservices/{id}
 ```
 
@@ -91,49 +91,49 @@ DELETE http://example.com/api/orderedservices/{id}
 
 Get ServiceModules
 
-```HTTP
+```nginx
 GET http://example.com/api/servicemodules
 ```
 
 Get ServiceModule
 
-```HTTP
+```nginx
 GET http://example.com/api/servicemodules/{id}
 ```
 
 Update ServiceModule
 
-```HTTP
+```nginx
 PUT http://example.com/api/servicemodules/{id}
 ```
 
 Delete ServiceModule
 
-```HTTP
+```nginx
 DELETE http://example.com/api/servicemodules/{id}
 ```
 
 Create ServiceModule
 
-```HTTP
+```nginx
 POST http://example.com/api/servicemodules/new
 ```
 
 Get all Providers which are suported by the libaries
 
-```HTTP
+```nginx
 GET http://example.com/api/servicemodules/providers
 ```
 
 Get all Sizes
 
-```HTTP
+```nginx
 GET http://example.com/api/servicemodules/sizes
 ```
 
 Get all Categories
 
-```HTTP
+```nginx
 GET http://example.com/api/servicemodules/caegories
 ```
 

@@ -19,7 +19,7 @@ Each Image belongs to a Category and has a name (unique) which allows to choose 
 
 Returns Random full Image
 
-```
+```nginx
 GET http://example.com/
 ```
 
@@ -27,7 +27,7 @@ GET http://example.com/
 
 Returns full Image from the name (unique)
 
-```
+```nginx
 GET http://example.com/<name>/
 ```
 
@@ -35,7 +35,7 @@ GET http://example.com/<name>/
 
 Returns one of the uploaded Images as a Square Image (random)
 
-```
+```nginx
 GET http://example.com/<width>/
 ```
 
@@ -43,7 +43,7 @@ GET http://example.com/<width>/
 
 Returns specific Image as Square Image
 
-```
+```nginx
 GET http://example.com/<width>/<name>/
 ```
 
@@ -51,7 +51,7 @@ GET http://example.com/<width>/<name>/
 
 Returns one of the uploaded Images as a Rectangle Image (random)
 
-```
+```nginx
 GET http://example.com/<width>/<height>/
 ```
 
@@ -59,7 +59,7 @@ GET http://example.com/<width>/<height>/
 
 Returns Specific Image as Rectangle Image
 
-```
+```nginx
 GET http://example.com/<width>/<height>/<name>
 ```
 
@@ -67,7 +67,7 @@ GET http://example.com/<width>/<height>/<name>
 
 Returns Random full Image from Category
 
-```
+```nginx
 GET http://example.com/category/<category>/
 ```
 
@@ -75,7 +75,7 @@ GET http://example.com/category/<category>/
 
 Returns Random square Image from Category
 
-```
+```nginx
 GET http://example.com/category/<category>/<width>/
 ```
 
@@ -84,7 +84,7 @@ GET http://example.com/category/<category>/<width>/
 
 Returns Random rectangle Image from Category
 
-```
+```nginx
 GET http://example.com/category/<category>/<width>/<height>/
 ```
 
