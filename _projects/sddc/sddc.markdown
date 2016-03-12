@@ -33,7 +33,7 @@ Abstraction for Services, Ordered Services and Service Modules.
 
 Return List with all Services
 
-```Slim
+```slim
 GET http://example.com/api/services
 ```
 
