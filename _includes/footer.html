@@ -12,7 +12,9 @@
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
-        <div class="copyrightfooter">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+      <div class="copyrightfooter">
             <span>Copyright Silvan Adrian {{ site.time | date: '%Y' }}</span>
 
         </div>
@@ -20,5 +22,4 @@
     </div>
 
   </div>
-
 </footer>
