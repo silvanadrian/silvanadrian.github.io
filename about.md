@@ -5,14 +5,15 @@ permalink: /about/
 excerpt: "I’m a 23 year-old Computer Science Student and part-time Frontend Developer"
 ---
 
-
 <h2 class="abouttitle">Hi. My Name is Silvan.</h2>
+
+<div style="margin-bottom:50px;" class="center-block col-lg-5 col-md-5 col-sm-6 col-xs-9">
+<img alt="Silvan Adrian" src="/img/about/about.jpg" />
+</div>
 
 I'm a 23 year-old Computer Science Student from Pfäffikon ZH. My current job I'm working on while studying is as a Frontend Developer, as which I develop different kinds of Websites or maintain them.
 
-I try to write mostly about technology, programming, productivity or a project.
-If you are interested in hearing more from me, subscribe to the [RSS feed](http://silvanadrian.ch/feed.xml)
- or follow me on twitter as [ @svennebanan_ ](https://twitter.com/svennebanan_).
+I try to write mostly about technology, programming, productivity or a project. If you are interested in hearing more from me, subscribe to the [RSS feed](http://silvanadrian.ch/feed.xml) or follow me on twitter as [ @svennebanan_ ](https://twitter.com/svennebanan_).
 
 Or if you are interested in what I'm programming in my free time have a look around on my Github Account [silvanadrian](https://github.com/silvanadrian).
 
