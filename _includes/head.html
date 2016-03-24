@@ -5,6 +5,7 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.projectshead }}{% endif %}">
   <meta http-equiv="expires" content="43200">
   <meta name="keywords" content="Silvan, Adrian, Frontend Developer, Backend Developer, Webdesign, Webdevelopment">
+  <link rel="alternate" hreflang="en" href="https://silvanadrian.ch/">
   <title>{{ site.title }} | {% if page.title %}{{ page.title }}{%else%}{% endif %}</title>
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
