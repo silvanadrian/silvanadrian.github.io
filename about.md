@@ -13,7 +13,7 @@ excerpt: "I’m a 23 year-old Computer Science Student and part-time Frontend De
 
 I'm a 23 year-old Computer Science Student from Pfäffikon ZH. My current job I'm working on while studying is as a Frontend Developer, as which I develop different kinds of Websites or maintain them.
 
-I try to write mostly about technology, programming, productivity or a project. If you are interested in hearing more from me, subscribe to the [RSS feed](http://silvanadrian.ch/feed.xml) or follow me on twitter as [ @svennebanan_ ](https://twitter.com/svennebanan_).
+I try to write mostly about technology, programming, productivity or a project. If you are interested in hearing more from me, subscribe to the [RSS feed](http://silvanadrian.ch/feed.xml) or follow me on twitter as [ @silvnsan](https://twitter.com/silvnsan).
 
 Or if you are interested in what I'm programming in my free time have a look around on my Github Account [silvanadrian](https://github.com/silvanadrian).
 
