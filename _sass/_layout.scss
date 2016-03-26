@@ -18,7 +18,14 @@ p {
     line-height: 1.5em;
 }
 
+a:hover #socialshare {
+  opacity:0.6;
+}
 
+.post-meta svg {
+  fill: currentColor;
+  margin: 0 5px 0 5px;
+}
 
 /**
  * Site header

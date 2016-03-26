@@ -16,10 +16,10 @@
 }
 
 @font-face {font-family:"bodytext";
-    src: url("../fonts/cd57a6d45e900c971cf5484e22b96c44.eot"); 
-    src: url("../fonts/cd57a6d45e900c971cf5484e22b96c44.eot?#iefix") format("embedded-opentype"), 
+    src: url("../fonts/cd57a6d45e900c971cf5484e22b96c44.eot");
+    src: url("../fonts/cd57a6d45e900c971cf5484e22b96c44.eot?#iefix") format("embedded-opentype"),
     url("../fonts/cd57a6d45e900c971cf5484e22b96c44.woff") format("woff"),
-    url("../fonts/cd57a6d45e900c971cf5484e22b96c44.ttf") format("truetype"), 
+    url("../fonts/cd57a6d45e900c971cf5484e22b96c44.ttf") format("truetype"),
     url("../fonts/cd57a6d45e900c971cf5484e22b96c44.svg#bodytext") format("svg");
 }
 
@@ -74,6 +74,5 @@ $large-devices:    1200px;
         "fancybox",
         "justifiedgallery",
         "bootstrap",
-        "fontawesome",
        "layout"
 ;
