@@ -4,9 +4,9 @@ title:  "loremimg"
 date:   2016-03-11 13:33:44
 excerpt: "REST API to get resized Images "
 github-url: "https://github.com/silvanadrian/loremimg"
-frontimage: { url: '/img/projects/loremimg/lorempixel.png', lgsize: 12 , mdsize: 12, smsize: 12, xssize: }
+frontimage: { url: '/img/projects/loremimg/lorempixel.svg', lgsize: 12 , mdsize: 12, smsize: 12, xssize: }
 sideimage:
-- '/img/projects/loremimg/lorempixel.png'
+- '/img/projects/loremimg/lorempixel.svg'
 ---
 
 ### Description ###
