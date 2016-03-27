@@ -23,20 +23,22 @@
     url("../fonts/cd57a6d45e900c971cf5484e22b96c44.svg#bodytext") format("svg");
 }
 
-
-// Our variables
+// Font Styling
 $base-font-family: 'bodytext', Arial, sans-serif;
-$titel-font: 'silvanfont';
 $heading-font: 'header';
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
+//Spacing
 $spacing-unit:     10px;
 
+//Color
 $text-color:       #121212;
 $background-color: #FFF;
 $brand-color:      #2a7ae2;
+$nav-color:        #808080;
+$post-meta-color:  #828282;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -49,8 +51,6 @@ $smartphone:       320px;
 $tablets:          768px;
 $medium-devices:   992px;
 $large-devices:    1200px;
-
-
 
 // Using media queries with like this:
 // @include media-query($on-palm) {

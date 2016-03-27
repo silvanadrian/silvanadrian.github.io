@@ -5,11 +5,11 @@ Page Wrapper
 */
 
 .page-content {
-    margin:10px 0;
+    margin:$spacing-unit 0;
 }
 
 body {
-    border-top:5px solid $text-color;
+    border-top:$spacing-unit / 2 solid $text-color;
     font-size: $base-font-size;
 }
 
@@ -24,7 +24,7 @@ a:hover #socialshare {
 
 .post-meta svg {
   fill: currentColor;
-  margin: 0 5px 0 5px;
+  margin: 0 $spacing-unit / 2 0 $spacing-unit / 2;
 }
 
 /**
@@ -73,11 +73,10 @@ a:hover #socialshare {
 }
 
 .site-blog-title {
-    font-size: 80px;
-    font-family: $titel-font;
+    font-size: 5em;
     text-align: center;
-    letter-spacing: -1px;
-    margin-bottom: -20px;
+    letter-spacing: -0.16em;
+    margin-bottom: - 2 * $spacing-unit;
     display: block;
     &,
     &:visited {
@@ -87,31 +86,31 @@ a:hover #socialshare {
 
 .hometitle {
     position: absolute;
-    width:100%;
+    width:$content-width;
     text-align: center;
     color:#FFF;
 }
 
 #mynav {
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 10 * $spacing-unit 0;
 }
 
 .navigation {
-	width:100%;
+	width:$content-width;
 	text-align:center;
-    z-index:999;
+  z-index:999;
 }
 
 .icon-bar {
-	border:2px solid #121212;
+	border:2px solid $text-color;
 }
 
 
 .navigation li {
 	float:none;
 	display:inline-block;
-    z-index:999;
+  z-index:999;
 }
 
 .navbar-default {
@@ -120,7 +119,7 @@ a:hover #socialshare {
 }
 
 .navbar {
-    margin-top:10px;
+    margin-top: $spacing-unit;
 }
 
 .nav  {
@@ -132,30 +131,21 @@ a:hover #socialshare {
 .navbar-toggle {
     padding:0;
     margin:0;
-	width:100%;
-    color:#121212;
+	   width:$content-width;
+    color:$text-color;
     font-size:1.5em;
 }
 
-.navbar-top {
-    position: absolute;
-    right:0;
-}
-
 .menu-brand {
-    color:#FFF;
-    margin-left: 10px;
-}
-
-.navmenu-nav i, .networks i {
-    width:30px;
+    color:$background-color;
+    margin-left: $spacing-unit;
 }
 
 /**
  * Site footer
  */
 .site-footer {
-    padding: 100px 0;
+    padding: 10 * $spacing-unit 0;
 }
 
 .contact-list,
@@ -165,16 +155,10 @@ a:hover #socialshare {
 }
 
 .footer-col-wrapper {
-    font-size: 15px;
+    font-size: 0.9em;
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
-}
-
-.footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
 }
 
 
@@ -183,30 +167,24 @@ a:hover #socialshare {
 }
 
 .nav li a {
-    color: #808080;
+    color: $nav-color;
     transition: color 0.2s ease-in 0s;
     -moz-transition: color 0.2s ease-in 0s;
     -webkit-transition: color 0.2s ease-in 0s;
 }
 
-
 /**
  * Page content
  */
-
-.page-heading {
-    font-size: 20px;
-}
-
 
 .post {
     padding:0;
 }
 
 .post-list {
-    margin:10px 0;
+    margin:$spacing-unit 0;
     margin-left: 0;
-    background:#FFF;
+    background:$background-color;
     list-style: none;
 
     > li {
@@ -215,46 +193,9 @@ a:hover #socialshare {
 }
 
 img.center-block {
-  width:100%;
+  width:$content-width;
 }
 
-.sidebar {
-    margin:10px 0;
-    background:#FFF;
-}
-
-.project-content {
-    margin:10px 0;
-}
-
-.project-content img {
-    width:100%;
-}
-
-.project-text {
-    width:60%;
-    margin-left: 20%;
-}
-
-.project-image {
-    width:60%;
-    margin-left:20%;
-}
-
-.project-full {
-}
-
-.project-half {
-    width:50%;
-}
-
-.project-quarter {
-    width: 25%;
-}
-
-.project-full img , .project-half img, .project-quarter img, .project-image img{
-    width:100%;
-}
 
 .post-meta {
     font-size: $small-font-size;
@@ -286,9 +227,9 @@ position: relative;
     position: absolute;
     top:0;
     left:0;
-    height:100%;
-    width:100%;
-    background: #121212;
+    height:$content-width;
+    width:$content-width;
+    background: $text-color;
     z-index: 100;
     color:#FFF;
     transition: all 0.5s ease-in-out 0s;
@@ -297,13 +238,13 @@ position: relative;
 }
 
 .projectoverlay h2 {
-      left: 50%;
+    left: 0.5 * $content-width;
     margin: auto;
     position: absolute;
     text-align: center;
-    top: 48%;
-    transform: translate(-50%, -50%);
-    width: 50%;
+    top: 0.48 * $content-width;
+    transform: translate(-0.5 * $content-width, -0.5*$content-width);
+    width: 0.5 * $content-width;
 }
 
 .project-list {
@@ -329,9 +270,9 @@ position: relative;
 .post-author-avatar {
 position: relative;
 float: left;
-width: 100%;
+width: $content-width;
 overflow: hidden;
-background: #fff;
+background: $background-color;
 -webkit-border-radius: 10em;
 border-radius: 10em;
 -webkit-box-sizing: border-box;
@@ -353,13 +294,13 @@ box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .share h4 {
-    padding-top:10px;
+    padding-top:$spacing-unit;
 }
 
 .share a, .share a:visited {
-    color:#121212;
+    color:$text-color;
     font-size:2.5em;
-    margin:10px;
+    margin:$spacing-unit;
     transition: color 0.2s ease-in 0s;
     -moz-transition: color 0.2s ease-in 0s;
     -webkit-transition: color 0.2s ease-in 0s;
@@ -374,11 +315,10 @@ box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     float:left;
     border-top:1px solid #CCC;
     border-bottom: 1px solid #CCC;
-    padding:30px 0;
+    padding:3 * $spacing-unit 0;
 }
 
 .authorname {
-    font-family:'open_sanssemibold';
     padding:0;
     margin:0;
 }
@@ -388,7 +328,7 @@ box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .author-meta a {
-    color:#121212;
+    color:$text-color;
 }
 
 .author-meta li {
@@ -397,44 +337,43 @@ box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 
 .abouttitle {
     text-align: center;
-    padding-top: 40px;
-    padding-bottom:50px;
+    padding-top: 4 * $spacing-unit;
+    padding-bottom:5 * $spacing-unit;
     text-transform: uppercase;
 }
 
 .projecttitle {
     text-align: center;
-    padding-top: 40px;
-    padding-bottom:40px;
+    padding-top: 4 * $spacing-unit;
+    padding-bottom:4 * $spacing-unit;
     text-transform: uppercase;
 }
 
 /* Post */
 
 .post-title a {
-    color:#121212;
+    color:$text-color;
 }
 
 .post-index {
-    //border-bottom: 1px solid #CCC;
-    padding-bottom: 50px;
-    margin-bottom: 20px;
+    padding-bottom: 5 * $spacing-unit;
+    margin-bottom: 2 * $spacing-unit;
 }
 
 .post-meta {
-    color:#828282;
+    color:$post-meta-color;
 }
 
 .post-meta i {
-    width:30px;
+    width:3 * $spacing-unit;
 }
 
 .post-excerpt, .post-content {
-    margin-top:20px;
+    margin-top:2 * $spacing-unit;
 }
 
 .post-content {
-    margin-bottom:50px;
+    margin-bottom:5 * $spacing-unit;
 }
 
 /* Archive Page Tag */
@@ -442,11 +381,11 @@ box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 .tag-archive-header {
     text-align:center;
     text-transform: uppercase;
-    margin-bottom:50px;
+    margin-bottom:5 * $spacing-unit;
 }
 
 .archive {
-    margin-bottom: 50px;
+    margin-bottom: 5 * $spacing-unit;
 }
 
 
@@ -459,30 +398,23 @@ box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 2.625em;
     letter-spacing: -1px;
     line-height: 1;
     text-align: center;
     @include media-query($medium-devices) {
-        font-size: 36px;
+        font-size: 2.25em;
     }
 }
 
 .spacing {
-    margin: 20px 0;
+    margin: 2 * $spacing-unit 0;
 }
 
 /* Gallery */
-
-
 .photo {
-    margin:10px 0;
+    margin:$spacing-unit 0;
 }
-
-#myNavbar {
-	margin: 0;
-	padding:0;
-	}
 
  @media only screen and (max-width : 480px) {
      .projectoverlay {
@@ -492,8 +424,6 @@ box-shadow: 0 2px 4px rgba(0,0,0,0.1);
       .site-title {
          font-size:2.5em;
      }
-
-
 }
 
 
@@ -505,30 +435,28 @@ box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 
 
  @media only screen and (max-width : 768px) {
-
-
      .site-header {
-    // Positioning context for the mobile navigation icon
-  height:auto;
-}
+      // Positioning context for the mobile navigation icon
+      height:auto;
+    }
 
-.projecttitle {
-  font-size: 1.5em;
-}
+    .projecttitle {
+      font-size: 1.5em;
+    }
 
-     .navigation li {
-	float:none;
-	display:block;
-}
+    .navigation li {
+	    float:none;
+	    display:block;
+    }
 
-     .aboutimage {
-        float:none;
-  margin-right: auto;
-  margin-left: auto;
+    .aboutimage {
+      float:none;
+      margin-right: auto;
+      margin-left: auto;
      }
 
-     .abouttext {
-         margin:20px 0;
-         text-align: center;
+    .abouttext {
+       margin:20px 0;
+       text-align: center;
      }
  }
