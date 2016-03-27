@@ -19,84 +19,84 @@ Each Image belongs to a Category and has a name (unique) which allows to choose 
 
 Returns Random full Image
 
-```nginx
+{% highlight nginx %}
 GET http://example.com/
-```
+{% endhighlight %}
 
 ####  Full Image
 
 Returns full Image from the name (unique)
 
-```nginx
+{% highlight nginx %}
 GET http://example.com/<name>/
-```
+{% endhighlight %}
 
 #### Square Image
 
 Returns one of the uploaded Images as a Square Image (random)
 
-```nginx
+{% highlight nginx %}
 GET http://example.com/<width>/
-```
+{% endhighlight %}
 
 #### Square Image Specific
 
 Returns specific Image as Square Image
 
-```nginx
+{% highlight nginx %}
 GET http://example.com/<width>/<name>/
-```
+{% endhighlight %}
 
 #### Rectangle Image
 
 Returns one of the uploaded Images as a Rectangle Image (random)
 
-```nginx
+{% highlight nginx %}
 GET http://example.com/<width>/<height>/
-```
+{% endhighlight %}
 
 #### Rectangle Image Specific
 
 Returns Specific Image as Rectangle Image
 
-```nginx
+{% highlight nginx %}
 GET http://example.com/<width>/<height>/<name>
-```
+{% endhighlight %}
 
 #### Category
 
 Returns Random full Image from Category
 
-```nginx
+{% highlight nginx %}
 GET http://example.com/category/<category>/
-```
+{% endhighlight %}
 
 #### Category Square
 
 Returns Random square Image from Category
 
-```nginx
+{% highlight nginx %}
 GET http://example.com/category/<category>/<width>/
-```
+{% endhighlight %}
 
 
 #### Category Rectangle
 
 Returns Random rectangle Image from Category
 
-```nginx
+{% highlight nginx %}
 GET http://example.com/category/<category>/<width>/<height>/
-```
+{% endhighlight %}
 
 #### Example Usages
 
-```html
+{% highlight html %}
 <img src="http://example.com/200/" />
 <img src="http://example.com/200/400" />
 <img src="http://example.com/category/various/" />
 <img src="http://example.com/category/various/200/" />
 <img src="http://example.com/category/various/200/400" />
-```
+{% endhighlight %}
 
 ### Type of work
 

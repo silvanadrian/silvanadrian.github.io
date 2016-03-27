@@ -33,109 +33,109 @@ Abstraction for Services, Ordered Services and Service Modules.
 
 Return List with all Services
 
-```nginx
+{% highlight nginx %}
 GET http://example.com/api/services
-```
+{% endhighlight %}
 
 Create new Service
 
-```nginx
+{% highlight nginx %}
 POST http://example.com/api/services/new
-```
+{% endhighlight %}
 
 Order Service
 
-```nginx
+{% highlight nginx %}
 POST http://example.com/api/services/<id>
-```
+{% endhighlight %}
 
 Update Service
 
-```nginx
+{% highlight nginx %}
 PUT http://example.com/api/services/<id>
-```
+{% endhighlight %}
 
 Get Service
 
-```nginx
+{% highlight nginx %}
 GET http://example.com/api/services/<id>
-```
+{% endhighlight %}
 
 Delete Service
 
-```nginx
+{% highlight nginx %}
 DELETE http://example.com/api/services/<id>
-```
+{% endhighlight %}
 
 #### OrderedService
 
 Get OrderedServices
 
-```nginx
+{% highlight nginx %}
 GET http://example.com/api/orderedservices
-```
+{% endhighlight %}
 
 Get OrderedService
 
-```nginx
+{% highlight nginx %}
 GET http://example.com/api/orderedservices/<id>
-```
+{% endhighlight %}
 
 Cancel OrderedService
 
-```nginx
+{% highlight nginx %}
 DELETE http://example.com/api/orderedservices/<id>
-```
+{% endhighlight %}
 
 #### ServiceModule
 
 Get ServiceModules
 
-```nginx
+{% highlight nginx %}
 GET http://example.com/api/servicemodules
-```
+{% endhighlight %}
 
 Get ServiceModule
 
-```nginx
+{% highlight nginx %}
 GET http://example.com/api/servicemodules/<id>
-```
+{% endhighlight %}
 
 Update ServiceModule
 
-```nginx
+{% highlight nginx %}
 PUT http://example.com/api/servicemodules/<id>
-```
+{% endhighlight %}
 
 Delete ServiceModule
 
-```nginx
+{% highlight nginx %}
 DELETE http://example.com/api/servicemodules/<id>
-```
+{% endhighlight %}
 
 Create ServiceModule
 
-```nginx
+{% highlight nginx %}
 POST http://example.com/api/servicemodules/new
-```
+{% endhighlight %}
 
 Get all Providers which are suported by the libaries
 
-```nginx
+{% highlight nginx %}
 GET http://example.com/api/servicemodules/providers
-```
+{% endhighlight %}
 
 Get all Sizes
 
-```nginx
+{% highlight nginx %}
 GET http://example.com/api/servicemodules/sizes
-```
+{% endhighlight %}
 
 Get all Categories
 
-```nginx
+{% highlight nginx %}
 GET http://example.com/api/servicemodules/caegories
-```
+{% endhighlight %}
 
 
 #### Generic API
@@ -145,24 +145,24 @@ This is the API which makes the calls on the libaries (libvirt).
 ##### Create
 Creates Resource according to Configfile from Module.
 
-```java
+{% highlight java %}
 Identifier create(ServiceModule module);
-```
+{% endhighlight %}
 
 ##### Delete
 Deletes Resource according to *Identifier*.
 
-```java
+{% highlight java %}
 void delete(Identifier identifier);
-```
+{% endhighlight %}
 
 ##### Get Informations
 
 Gets All Possible informations for a Resource (RAM, vCpus, Disk Size).
 
-```java
+{% highlight java %}
 Map<String, String> getInformations(Identifier identifier);
-```
+{% endhighlight %}
 
 
 ### Type of work
