@@ -412,6 +412,14 @@ margin:0;
     margin: 2 * $spacing-unit 0;
 }
 
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0px;
+}
+
 /* Gallery */
 .photo {
     margin:$spacing-unit 0;
@@ -439,6 +447,10 @@ margin:0;
      .site-header {
       // Positioning context for the mobile navigation icon
       height:auto;
+    }
+
+    .author-meta li {
+        display: block;
     }
 
     .projecttitle {
