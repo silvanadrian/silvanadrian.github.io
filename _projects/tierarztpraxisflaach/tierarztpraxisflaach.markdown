@@ -12,6 +12,8 @@ image:
 
 ---
 
+<link itemprop="applicationCategory" href="http://schema.org/WebApplication"/>
+
 ### Description
 
 I did a Redesign of the old Website, which was very old (still one of those old plain HTML Sites, which didn't look very nice).
@@ -35,4 +37,4 @@ PHP
 
 ### Link
 The live Version of the Website is available here:  
-[http://tierarztpraxisflaach.ch](http://tierarztpraxisflaach.ch)
+<a itemprop="url" href="http://tierarztpraxisflaach.ch">http://tierarztpraxisflaach.ch</a>

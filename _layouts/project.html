@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-<article class="page-content col-lg-10 center-block">
+<article itemscope itemtype="http://schema.org/SoftwareApplication" class="page-content col-lg-10 center-block">
 <div class="row">
-<h2 class="projecttitle">{{page.title}}</h2>
+<h2 itemprop="name" class="projecttitle">{{page.title}}</h2>
 
-    <img class="center-block" src="{{ page.sideimage }}">
+    <img itemprop="image" class="center-block" src="{{ page.sideimage }}">
 {% if page.github-url %}<a href="{{page.github-url}}" class="github-corner"><svg width="60" height="60"
   viewBox="0 0 250 250" style="fill:#70B7FD; color:#fff; position: absolute; top: 0;
   border: 0; right: 0;"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
@@ -23,7 +23,7 @@ octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80
 @media (max-width:500px)
   {.github-corner:hover .octo-arm{animation:none}.github-corner
   .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
-  
+
   {% endif %}
 {{ content }}
 </div>

@@ -8,12 +8,14 @@ frontimage: { url: '/img/projects/loremimg/lorempixel.svg', lgsize: 12 , mdsize:
 sideimage:
 - '/img/projects/loremimg/lorempixel.svg'
 ---
+<link itemprop="applicationCategory" href="http://schema.org/WebApplication"/>
 
 ### Description ###
 
-
+<div itemprop="description">
 A very simple REST API which can return uploaded Images in every Size needed (inspired by lorempixel).  
 Each Image belongs to a Category and has a name (unique) which allows to choose the image to show with it's name.
+</div>
 
 #### Homepage
 
@@ -111,4 +113,4 @@ Django REST framework
 ### Links
 
 The Source Code of the Project is hosted on Github  
-[Github loremimg](https://github.com/silvanadrian/loremimg)
+<a itemprop="downloadUrl" href="https://github.com/silvanadrian/loremimg">Github loremimg</a>

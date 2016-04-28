@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+gem 'pygments.rb'
 gem 'github-pages'
 gem 'jemoji'
 gem 'jekyll-sitemap'

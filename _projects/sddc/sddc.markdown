@@ -9,15 +9,18 @@ sideimage:
 - '/img/projects/sddc/admin-dashboard.png'
 ---
 
+<link itemprop="applicationCategory" href="http://schema.org/WebApplication"/>
 ### Description ###
 
 <div class="row">
 <div class="col-md-7 col-sm-6">
+<div itemprop="description">
 A REST API which access the underlying GenericAPI to provision Compute, Network and Storage Resources.
 But since the Time was short we used a simple API to build upon the libvirt API (KVM/XEN/VMware ESX).<br>
 It's possible to extend the Software with other API's like <a href="https://jclouds.apache.org/" reL="nofollow">jclouds</a> which would extend the
 Software with the possibility to provision Cloud Hoster Resources.<br>
 As an addition the Software also has a very simple and easy User Dashboard (Self-Service) and a Admin Dashboard to administrate the software.
+</div>
 </div>
 <br>
 <div class="col-md-5 col-sm-6">
@@ -179,4 +182,4 @@ AngularJS
 ### Links
 
 The Source Code of the Project is hosted on Github  
-[Github SDDC](https://github.com/hsr-sa-hs15-sddc/SDDC)
+<a itemprop="downloadUrl" href="https://github.com/hsr-sa-hs15-sddc/SDDC">Github SDDC</a>

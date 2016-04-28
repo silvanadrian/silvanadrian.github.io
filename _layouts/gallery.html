@@ -7,8 +7,8 @@ layout: photo
 {% assign images = site.images | sort: 'date' %}
 {% for img in images %}
     {% for photo in img.photos %}
-    <a class="fancybox" rel="group1" href="{{ photo.big }}" title="{{ photo.alt }}">
-      <img src="{{ photo.small }}" alt="{{ photo.caption }}">
+    <a itemprop="image" class="fancybox" rel="group1" href="{{ photo.big }}" title="{{ photo.alt }}">
+      <img itemprop="thumbnailUrl" src="{{ photo.small }}" alt="{{ photo.caption }}">
     </a>
     {% endfor %}
 {% endfor %}
