@@ -16,14 +16,13 @@
 }
 
 @font-face {
-    font-family:"bodytext";
-    src: url("../fonts/cd57a6d45e900c971cf5484e22b96c44.eot");
-    src: url("../fonts/cd57a6d45e900c971cf5484e22b96c44.eot?#iefix") format("embedded-opentype"),
-    //url("../fonts/cd57a6d45e900c971cf5484e22b96c44.woff") format("woff"),
-    url("../fonts/cd57a6d45e900c971cf5484e22b96c44.ttf") format("truetype"),
-    url("../fonts/cd57a6d45e900c971cf5484e22b96c44.svg#bodytext") format("svg");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "bodytext";
+  src: url("../fonts/cd57a6d45e900c971cf5484e22b96c44.eot");
+  src: url("../fonts/cd57a6d45e900c971cf5484e22b96c44.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/cd57a6d45e900c971cf5484e22b96c44.woff2") format("woff2"),
+  url("../fonts/cd57a6d45e900c971cf5484e22b96c44.woff") format("woff"),
+  url("../fonts/cd57a6d45e900c971cf5484e22b96c44.ttf") format("truetype"),
+  url("../fonts/cd57a6d45e900c971cf5484e22b96c44.svg#bodytext") format("svg");
 }
 
 // Font Styling
