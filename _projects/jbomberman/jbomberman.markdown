@@ -11,14 +11,13 @@ sideimage:
 ---
 
 <link itemprop="applicationCategory" href="http://schema.org/VideoGame"/>
-<meta itemprop="playMode" content="Multi-Player" >
 ### Description
 <div itemprop="description">
 A very minimalistic Clone of the Game Bomberman written in Java -> that's why there is a J :smiley:.
-
+<br>
 Well a Game has 3 rounds and whoever has the highest score will be the winner and the Game ends.
-
-The Game can be played by up to <span itemprop="numberOfPlayers">4</span> Players, but a Server is needed which supports RabbitMQ (there is a Docker Container, which can be used).
+<br>
+The Game can be played by up to 4 Players, but a Server is needed which supports RabbitMQ (there is a Docker Container, which can be used).
 </div>
 
 ### Type of work

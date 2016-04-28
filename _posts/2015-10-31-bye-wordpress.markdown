@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bye Wordpress. Hello Jekyll."
-date:   2015-10-31 13:33:44
+date: 2015-10-31 13:33:44
 categories: Info
 thumbnail: "/img/posts/jekyll.png"
 tags: Jekyll, Ghost
