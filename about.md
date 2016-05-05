@@ -5,7 +5,7 @@ permalink: /about/
 excerpt: "I’m a 23 year-old Computer Science Student and part-time Frontend Developer"
 ---
 <div itemscope itemtype="http://schema.org/Person">
-<meta itemprop="name" content="Silvan Adrian" />
+<span itemprop="name" style="display:none;">Silvan Adrian</span>
 <h2 class="abouttitle">Hi. My Name is Silvan.</h2>
 
 <div style="margin-bottom:50px;" class="center-block col-lg-5 col-md-5 col-sm-6 col-xs-9">

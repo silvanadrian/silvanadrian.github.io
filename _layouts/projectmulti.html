@@ -6,7 +6,7 @@ layout: default
 <h2 itemprop="name" class="abouttitle">{{page.title}}</h2>
     {% for image in page.image %}
     <div class="col-lg-{{image.lgsize}} col-md-{{image.mdsize}} col-sm-{{image.smsize}} col-xs-{{image.xssize}}">
-        <img itemprop="image" src="{{ image.url }}"/>
+        <img itemprop="image" alt="{{image.alt}}" src="{{ image.url }}"/>
     </div>
     {% endfor %}
 <div class="clearfix"></div>
