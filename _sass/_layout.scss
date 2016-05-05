@@ -118,13 +118,9 @@ a:hover #socialshare {
     border:none;
 }
 
-.navbar {
-    margin-top: $spacing-unit;
-}
-
 .nav  {
     font-size: 1.4em;
-    margin:0;
+    margin:$spacing-unit 0 20px 0;
     padding:0;
 }
 
