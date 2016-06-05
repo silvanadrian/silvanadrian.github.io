@@ -18,15 +18,11 @@ markdown: kramdown
 highlighter: pygments
 
 excerpt_separator: "<!--more-->"
+permalink: /articles/:title/
 
 collections:
-  projects:
-    output: true
-    permalink: /projects/:title.html
-
   images:
-    output: true
-    permalink: /gallery/:title.html
+    output: false
 
 
 sass:
@@ -41,4 +37,3 @@ assets:
 
 gems:
   - jemoji
-  - jekyll-sitemap

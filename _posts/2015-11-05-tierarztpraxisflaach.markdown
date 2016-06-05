@@ -1,15 +1,18 @@
 ---
 layout: project
-title:  "Tierarztpraxisflaach"
-date:   2015-04-01 13:33:44
+title:  "Tierarztpraxis flaach"
+date:   2015-11-05 13:33:44
 categories: Web Design, WebDevelopment
 excerpt: "Redesign of the old Tierarztpraxisflaach Website"
 link: "http://tierarztpraxisflaach.ch"
-frontimage: { url: '/img/projects/tierarztpraxisflaach/tierarztpraxislogo.jpg', lgsize: 8 , mdsize: 8, smsize: 8, xssize: }
-sideimage:
-- /img/projects/tierarztpraxisflaach/tierarztpraxisflaach.jpg
-image:
-
+headerimg: '/img/projects/tierarztpraxisflaach/tierarztpraxislogo.jpg'
+thumbnail: '/img/projects/tierarztpraxisflaach/tierarztpraxislogo.jpg'
+sideimage: '/img/projects/tierarztpraxisflaach/tierarztpraxisflaach.jpg'
+posttype: desktop
+sitemap:
+    priority: 0.8
+    changefreq: 'monthly'
+    lastmod: 2016-05-09T12:49:30-05:00
 ---
 
 <link itemprop="applicationCategory" href="http://schema.org/WebApplication"/>

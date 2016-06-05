@@ -10,7 +10,7 @@ Page Wrapper
 
 body {
     border-top:$spacing-unit / 2 solid $text-color;
-    font-size: $base-font-size;
+    font-size: 1.3rem;
 }
 
 p {
@@ -44,13 +44,12 @@ octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80
 /**
  * Site header
  */
-.site-header {
-    // Positioning context for the mobile navigation icon
-  height:100px;
+.navbar{
+  margin:15px 0;
 }
 
-.site-title {
-    font-size: 4em;
+.navbar-brand {
+    font-size: 2rem;
     font-family: $heading-font;
     margin-bottom: 0;
     line-height: 2em;
@@ -60,96 +59,132 @@ octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80
     background: #FFF;
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: #000;
     }
 }
 
-.site-title a {
+.navbar-brand {
+    color: rgba(0,0,0,1);
      transition: color 0.2s ease-in 0s;
     -moz-transition: color 0.2s ease-in 0s;
     -webkit-transition: color 0.2s ease-in 0s;
 }
 
-.site-title a:link,.site-title a:visited {
-    color:#37383b;
+.nav-link {
+  font-size:1.5rem;
+  line-height:2.5em;
+  font-family: $heading-font;
+  text-transform:uppercase;
+  &,
+  &:visited {
+      color: $grey-color-dark;
+  }
 }
 
-.site-title a:hover {
-    color:#828282;
+.navbar-toggler {
+  width:100%;
+  text-align:center;
+  font-size:3rem;
 }
 
-.site-logo {
-    color:$grey-color-dark;
-}
-
-.site-title:hover,.site-blog-title:hover, .site-logo:hover {
-    text-decoration: none;
-}
-
-.site-blog-title {
-    font-size: 5em;
-    text-align: center;
-    letter-spacing: -0.16em;
-    margin-bottom: - 2 * $spacing-unit;
-    display: block;
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
-}
-
-.hometitle {
-    position: absolute;
-    width:$content-width;
-    text-align: center;
-    color:#FFF;
-}
-
-#mynav {
-    margin: 0 auto;
-    padding: 10 * $spacing-unit 0;
-}
-
-.navigation {
-	width:$content-width;
-	text-align:center;
-  z-index:999;
-}
-
-.icon-bar {
-	border:2px solid $text-color;
-}
-
-
-.navigation li {
-	float:none;
-	display:inline-block;
-  z-index:999;
-}
-
-.navbar-default {
-    background: none;
-    border:none;
-}
-
-.nav  {
-    font-size: 1.4em;
-    margin:$spacing-unit 0 20px 0;
+@media only screen and (max-width : 768px) {
+  .nav-item {
+    width:100%;
     padding:0;
-}
+    margin:0 !important;
+  }
 
-.navbar-toggle {
+  .nav-item a {
+    text-align:center;
+  }
+
+  .navbar-brand {
+    width:100%;
+    text-align:center;
     padding:0;
     margin:0;
-	   width:$content-width;
-    color:$text-color;
-    font-size:1.5em;
+  }
 }
 
-.menu-brand {
-    color:$background-color;
-    margin-left: $spacing-unit;
+.posts article .post-wrapper {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
 }
+
+.posts article {
+  margin-bottom:3em;
+}
+.posts article h3 {
+    margin: 0.5rem 0;
+}
+
+.posts article h3 a {
+  color:#121212;
+}
+
+article h2, h2 {
+  margin: 2rem 0 1rem 0;
+}
+
+article h3 {
+  margin: 0.5rem 0;
+}
+
+article h4 {
+  margin: 0.5rem 0;
+}
+
+.post-date {
+  color:#bbb;
+}
+
+.card-share {
+    float: right;
+    position: relative;
+    margin-top: -20px;
+    margin-right:20px;
+}
+
+.share-icon {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #FFF;
+    transition: all 0.3s ease;
+    outline: 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.12),0 2px 4px rgba(0,0,0,0.24);
+}
+.header-image {
+  position: relative;
+}
+
+.image-credit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 10px 15px;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    font-size: 12px;
+    font-size: 0.75rem;
+    line-height: 2;
+    margin-bottom: 0;
+    text-align: right;
+    z-index: 10;
+}
+
+.image-credit a {
+  color:#FFF;
+}
+
+.posts-wrapper > h2{
+  margin:2em 0;
+}
+
+
 
 /**
  * Site footer

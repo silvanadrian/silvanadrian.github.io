@@ -1,21 +1,27 @@
-<h1 class="site-title"><a class="site-logo" href="/" title="{{ site.title }}">Silvan Adrian</a></h1>
-<div class="container">
-<header class="site-header">
-      <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <svg width="35" height="35" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1664 1344v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45z"/></svg>
+<header class="container">
+  <nav class="navbar navbar-light">
+      <a class="navbar-brand" href="/">Silvan Adrian</a>
+      <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+        &#9776;
       </button>
+      <div class="collapse navbar-toggleable-sm" id="exCollapsingNavbar2">
+        <ul class="nav navbar-nav pull-md-right">
+            <li class="nav-item">
+              <a itemprop="url" class="nav-link" href="/photography/"><span itemprop="name">Photography</span></a>
+            </li>
+            <li class="nav-item">
+              <a itemprop="url" class="nav-link" href="/about/"><span itemprop="name">About</span></a>
+            </li>
+        </ul>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-    <nav itemscope itemtype="http://www.schema.org/SiteNavigationElement">
-      <ul class="nav navbar-nav navigation">
-          <li><a itemprop="url" class="page-link" href="/"><span itemprop="name">Blog</span></a></li>
-         	<li><a itemprop="url" class="page-link" href="/projects/"><span itemprop="name">Projects</span></a></li>
-          <li><a itemprop="url" class="page-link" href="/photography/"><span itemprop="name">Photography</span></a></li>
-          <li><a itemprop="url" class="page-link" href="/about/"><span itemprop="name">About</span></a></li>
-      </ul>
-    </nav>
-  </div>
-
+  </nav>
 </header>
+<div class="header-image">
+  {% if page.headerimg %}
+    <img width="100%" itemprop="image" itemtype="https://schema.org/ImageObject" src="{{page.headerimg}}"/>
+  {% endif %}
+  {% if page.credit %}
+    <div class="image-credit">Image source: <a href="{{page.credit[0]}}" itemprop="citation">{{page.credit[1]}}</a></div>
+  {% endif %}
+</div>
 <div class="page-wrapper">

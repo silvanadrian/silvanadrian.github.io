@@ -4,13 +4,15 @@ title:  "loremimg"
 date:   2016-03-11 13:33:44
 excerpt: "REST API to get resized Images "
 github-url: "https://github.com/silvanadrian/loremimg"
-frontimage: { url: '/img/projects/loremimg/lorempixel.svg', lgsize: 12 , mdsize: 12, smsize: 12, xssize: }
-sideimage:
-- '/img/projects/loremimg/lorempixel.svg'
+thumbnail: '/img/projects/loremimg/lorempixel.svg'
+headerimg: '/img/projects/loremimg/lorempixel.svg'
+posttype: desktop
+sitemap:
+    priority: 0.8
+    changefreq: 'monthly'
+    lastmod: 2016-05-09T12:49:30-05:00
 ---
 <link itemprop="applicationCategory" href="http://schema.org/WebApplication"/>
-
-### Description ###
 
 <div itemprop="description">
 A very simple REST API which can return uploaded Images in every Size needed (inspired by lorempixel).  

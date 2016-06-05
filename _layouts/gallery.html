@@ -3,6 +3,7 @@ layout: photo
 ---
 
 <div class="container">
+<h2>{{page.title}}</h2>
 <div id="photography" itemscope="" itemtype="https://schema.org/ImageGallery">
 {% assign images = site.images | sort: 'date' %}
 {% for img in images %}

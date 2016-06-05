@@ -1,13 +1,18 @@
 ---
 layout: project
 title:  "JBomberman"
-date:   2015-07-19 13:33:44
+date:   2015-12-19 13:33:44
 categories: Web Design, WebDevelopment
 excerpt: "A very minimalistic Clone of the Game Bomberman written in Java"
 github-url: "https://github.com/HSR-SE2Proj/JBomberman"
-frontimage: { url: '/img/projects/jbomberman/jbomberman.jpg', lgsize: 12 , mdsize: 12, smsize: 12, xssize: }
-sideimage:
-- /img/projects/jbomberman/spielfeld.png
+thumbnail: '/img/projects/jbomberman/jbomberman.jpg'
+headerimg: '/img/projects/jbomberman/jbomberman.jpg'
+sideimage: '/img/projects/jbomberman/spielfeld.png'
+posttype: desktop
+sitemap:
+    priority: 0.8
+    changefreq: 'monthly'
+    lastmod: 2016-05-09T12:49:30-05:00
 ---
 
 <link itemprop="applicationCategory" href="http://schema.org/VideoGame"/>

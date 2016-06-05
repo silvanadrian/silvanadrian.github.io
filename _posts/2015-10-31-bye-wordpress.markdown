@@ -4,10 +4,14 @@ title:  "Bye Wordpress. Hello Jekyll."
 date: 2015-10-31 13:33:44
 categories: Info
 thumbnail: "/img/posts/jekyll.png"
+headerimg: "/img/posts/jekyll.png"
+posttype: file-text 
 tags: Jekyll, Ghost
+sitemap:
+    priority: 0.8
+    changefreq: 'monthly'
+    lastmod: 2016-05-09T12:49:30-05:00
 ---
-
-![Jekyll](/img/posts/jekyll.png)
 
 Well as the title says I switched my Website to Jekyll.
 
