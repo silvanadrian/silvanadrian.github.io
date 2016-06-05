@@ -7,10 +7,18 @@
       <div class="collapse navbar-toggleable-sm" id="exCollapsingNavbar2">
         <ul class="nav navbar-nav pull-md-right">
             <li class="nav-item">
-              <a itemprop="url" class="nav-link" href="/photography/"><span itemprop="name">Photography</span></a>
+              {% if page.title == 'Photo Stream'%}
+                <a itemprop="url" class="nav-link active" href="/photography/"><span itemprop="name">Photography</span></a>
+              {% else %}
+                <a itemprop="url" class="nav-link" href="/photography/"><span itemprop="name">Photography</span></a>
+              {%endif%}
             </li>
             <li class="nav-item">
-              <a itemprop="url" class="nav-link" href="/about/"><span itemprop="name">About</span></a>
+              {% if page.title == 'About'%}
+                <a itemprop="url" class="nav-link active" href="/about/"><span itemprop="name">About</span></a>
+              {% else %}
+                <a itemprop="url" class="nav-link" href="/about/"><span itemprop="name">About</span></a>
+              {%endif%}
             </li>
         </ul>
     </div>
