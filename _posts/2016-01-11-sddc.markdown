@@ -14,7 +14,6 @@ sitemap:
     lastmod: 2016-05-09T12:49:30-05:00
 ---
 
-<link itemprop="applicationCategory" href="http://schema.org/WebApplication"/>
 ### Description ###
 
 <div class="row">
@@ -187,4 +186,4 @@ AngularJS
 ### Links
 
 The Source Code of the Project is hosted on Github  
-<a itemprop="downloadUrl" href="https://github.com/hsr-sa-hs15-sddc/SDDC">Github SDDC</a>
+<a href="https://github.com/hsr-sa-hs15-sddc/SDDC">Github SDDC</a>

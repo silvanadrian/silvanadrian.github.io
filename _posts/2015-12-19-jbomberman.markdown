@@ -15,7 +15,6 @@ sitemap:
     lastmod: 2016-05-09T12:49:30-05:00
 ---
 
-<link itemprop="applicationCategory" href="http://schema.org/VideoGame"/>
 ### Description
 <div itemprop="description">
 A very minimalistic Clone of the Game Bomberman written in Java -> that's why there is a J :smiley:.
@@ -39,7 +38,7 @@ RabbitMQ
 The Source Code of the Project is hosted on Github and licensed  under the MIT License [https://github.com/HSR-SE2Proj/JBomberman](https://github.com/HSR-SE2Proj/JBomberman)
 
 The latest Releases are also available at Github  
-<a itemprop="installUrl" href="[https://github.com/HSR-SE2Proj/JBomberman/releases">https://github.com/HSR-SE2Proj/JBomberman/releases</a>
+<a href="[https://github.com/HSR-SE2Proj/JBomberman/releases">https://github.com/HSR-SE2Proj/JBomberman/releases</a>
 
 Docker Container which puts everything together what the Server needs  
 [https://github.com/silvanadrian/jbomb-docker](https://github.com/silvanadrian/jbomb-docker)
