@@ -1,10 +1,11 @@
 ---
 layout: project
-title:  "loremimg"
+title:  "Loremimg"
 date:   2016-03-11 13:33:44
 excerpt: "REST API to get resized Images "
 github-url: "https://github.com/silvanadrian/loremimg"
 thumbnail: '/img/projects/loremimg/lorempixel.svg'
+sideimage: '/img/projects/loremimg/lorempixel.svg'
 technology: Python, Django
 lang: en
 ref: loremimg
@@ -15,103 +16,6 @@ sitemap:
 ---
 
 A very simple REST API which can return uploaded Images in every Size needed (inspired by lorempixel).  
-Each Image belongs to a Category and has a name (unique) which allows to choose the image to show with it's name.
+Each Image belongs to a Category and has a name (unique) which allows to choose the image to show according to it's name.
+Source Code is on [Github](https://github.com/silvanadrian/loremimg) and is licensed under [MIT](https://opensource.org/licenses/MIT).
 
-
-## Homepage
-
-Returns Random full Image
-
-{% highlight nginx %}
-GET http://example.com/
-{% endhighlight %}
-
-##  Full Image
-
-Returns full Image from the name (unique)
-
-{% highlight nginx %}
-GET http://example.com/<name>/
-{% endhighlight %}
-
-#### Square Image
-
-Returns one of the uploaded Images as a Square Image (random)
-
-{% highlight nginx %}
-GET http://example.com/<width>/
-{% endhighlight %}
-
-#### Square Image Specific
-
-Returns specific Image as Square Image
-
-{% highlight nginx %}
-GET http://example.com/<width>/<name>/
-{% endhighlight %}
-
-#### Rectangle Image
-
-Returns one of the uploaded Images as a Rectangle Image (random)
-
-{% highlight nginx %}
-GET http://example.com/<width>/<height>/
-{% endhighlight %}
-
-#### Rectangle Image Specific
-
-Returns Specific Image as Rectangle Image
-
-{% highlight nginx %}
-GET http://example.com/<width>/<height>/<name>
-{% endhighlight %}
-
-#### Category
-
-Returns Random full Image from Category
-
-{% highlight nginx %}
-GET http://example.com/category/<category>/
-{% endhighlight %}
-
-#### Category Square
-
-Returns Random square Image from Category
-
-{% highlight nginx %}
-GET http://example.com/category/<category>/<width>/
-{% endhighlight %}
-
-
-#### Category Rectangle
-
-Returns Random rectangle Image from Category
-
-{% highlight nginx %}
-GET http://example.com/category/<category>/<width>/<height>/
-{% endhighlight %}
-
-#### Example Usages
-
-{% highlight html %}
-<img src="http://example.com/200/" />
-<img src="http://example.com/200/400" />
-<img src="http://example.com/category/various/" />
-<img src="http://example.com/category/various/200/" />
-<img src="http://example.com/category/various/200/400" />
-{% endhighlight %}
-
-### Type of work
-
-Development
-
-### Technologies
-
-Python  
-Django  
-Django REST framework
-
-### Links
-
-The Source Code of the Project is hosted on Github  
-<a href="https://github.com/silvanadrian/loremimg">Github loremimg</a>

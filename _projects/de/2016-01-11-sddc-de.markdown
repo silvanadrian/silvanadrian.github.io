@@ -1,0 +1,22 @@
+---
+layout: project
+title:  "Software Defined Data Center"
+date:   2016-01-11 13:33:44
+excerpt: "REST API,um Compute, Network und Storage Ressourcen bereitzustellen."
+github-url: "https://github.com/hsr-sa-hs15-sddc/SDDC"
+thumbnail: '/img/projects/sddc/SDDC.png'
+sideimage: '/img/projects/sddc/admin-dashboard.png'
+technology: Java Spring, AngularJS
+lang: de
+ref: sddc
+sitemap:
+    priority: 0.8
+    changefreq: 'monthly'
+    lastmod: 2016-05-09T12:49:30-05:00
+---
+
+### Description
+
+Eine REST API, welche die darunterliegende GenericAPI anspricht un dabei Compute, Network und Storage Resourcen bereitstellen kann.
+Zusätzlich zur eigentlichen Software wurde noch ein einfaches User und Admin Dashboard erstellt mit AngularJS.
+Der Source Code findet man auf [Github](https://github.com/hsr-sa-hs15-sddc/SDDC) und ist unter der [MIT Lizenz](https://opensource.org/licenses/MIT) lizenziert.

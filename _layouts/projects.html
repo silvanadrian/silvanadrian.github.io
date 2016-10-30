@@ -6,7 +6,7 @@ layout: default
 
     <div class="projects">
         {% assign projects=site.projects | where:"lang", page.lang %}
-        {% for project in projects %}
+        {% for project in projects reversed %}
 
             <article class="projects__wrapper">
                 <div class="projects__description">

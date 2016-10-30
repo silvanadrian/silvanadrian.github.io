@@ -16,27 +16,10 @@ sitemap:
     lastmod: 2016-05-09T12:49:30-05:00
 ---
 
-### Description
-
 I did a Redesign of the old Website, which was very old (still one of those old plain HTML Sites, which didn't look very nice).
-
 So I created a very minimalistic Design and built it upon Wordpress, so that the Customers will be able to handle the changes on their Website by themselves.
 
 Additionally I also did the Photographs of the Team, so they could but them online and have a nice Team Page to show off all the Employees.
 
-### Type of work
+The Webpage is Online under this url: [Tierarztpraxisflaach](http://tierarztpraxisflaach.ch).
 
-Web Design  
-Web Development  
-Photography
-
-### Technologies
-
-Wordpress  
-CSS  
-HTML  
-PHP
-
-### Link
-The live Version of the Website is available here:  
-<a itemprop="url" href="http://tierarztpraxisflaach.ch">http://tierarztpraxisflaach.ch</a>

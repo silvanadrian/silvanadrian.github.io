@@ -3,7 +3,10 @@
   <nav class="header__nav">
       <div class="header__nav-left">
           <ul class="header__menu brand">
-              <li class="header__menu-item"><a href="/">Silvan Adrian</a></li>
+              {% for menu in site.b[page.lang] %}
+                <li class="header__menu-item"><a href="{{ menu[1].url }}">Silvan Adrian</a></li>
+              {% endfor %}
+
           </ul>
           <!-- Navigation -->
          <ul class="header__menu">
@@ -23,6 +26,13 @@
           <a href="{{ post.url }}" class="header__language-item-{{ post.lang }}">{{ post.lang }}</a>
       </li>
       {% endfor %}
+
+        {% assign projects=site.projects | where:"ref", page.ref | sort: 'lang' %}
+        {% for project in projects %}
+        <li class="header__language-item">
+            <a href="{{ project.url }}" class="header__language-item-{{ project.lang }}">{{ project.lang }}</a>
+        </li>
+        {% endfor %}
 
       {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
       {% for page in pages %}

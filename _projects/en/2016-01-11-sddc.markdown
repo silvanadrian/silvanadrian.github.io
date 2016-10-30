@@ -18,19 +18,7 @@ sitemap:
 ### Description
 
 A REST API which access the underlying GenericAPI to provision Compute, Network and Storage Resources.
-But since the Time was short we used a simple API to build upon the libvirt API (KVM/XEN/VMware ESX).<br>
-It's possible to extend the Software with other API's like (https://jclouds.apache.org/jclouds)[jclouds] which would extend the
-Software with the possibility to provision Cloud Hoster Resources.<br>
-As an addition the Software also has a very simple and easy User Dashboard (Self-Service) and a Admin Dashboard to administrate the software.
+As an addition to the Software there is also very simple User Dashboard (Self-Service) and a Admin Dashboard to administrate the software,
+both Dasboards have been built with AngularJS.
+The Source Code can be found on [Github](https://github.com/hsr-sa-hs15-sddc/SDDC) and is licensed under [MIT](https://opensource.org/licenses/MIT).
 
-
-### Technologies -> mov them into Description
-
-Java  
-Java Spring  
-AngularJS
-
-### Links
-
-The Source Code of the Project is hosted on Github  
-<a href="https://github.com/hsr-sa-hs15-sddc/SDDC">Github SDDC</a>

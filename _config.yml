@@ -31,6 +31,17 @@ index:
   en:
   de: anfang.html
 
+#Brand Navigation
+b:
+  en:
+    home:
+      name: "Home"
+      url: "/"
+  de:
+   home:
+      name: "Home"
+      url: "/home/"
+
 #Navigatiion
 t:
   en:
