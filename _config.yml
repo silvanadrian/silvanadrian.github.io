@@ -18,11 +18,41 @@ markdown: kramdown
 highlighter: rouge
 
 excerpt_separator: "<!--more-->"
-permalink: /articles/:title/
-
+permalink: /:title
 collections:
   images:
     output: false
+  projects:
+   output: true
+   permalink: /:title
+
+# Translations
+index:
+  en:
+  de: anfang.html
+
+#Navigatiion
+t:
+  en:
+    home:
+      name: "Blog"
+      url: "/"
+    projects:
+      name: "Projects"
+      url: "/projects/"
+    about:
+      name: "About"
+      url: "/about/"
+  de:
+    home:
+      name: "Blog"
+      url: "/home/"
+    projects:
+      name: "Projekte"
+      url: "/projekte/"
+    about:
+      name: "Über mich"
+      url: "/ueber-mich/"
 
 
 sass:

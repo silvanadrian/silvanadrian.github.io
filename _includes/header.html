@@ -1,35 +1,46 @@
-<header class="container">
-  <nav class="navbar navbar-light">
-      <a class="navbar-brand" href="/">Silvan Adrian</a>
-      <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
-        &#9776;
-      </button>
-      <div class="collapse navbar-toggleable-sm" id="exCollapsingNavbar2">
-        <ul class="nav navbar-nav pull-md-right">
-            <li class="nav-item">
-              {% if page.title == 'Photo Stream'%}
-                <a itemprop="url" class="nav-link active" href="/photography/"><span itemprop="name">Photography</span></a>
-              {% else %}
-                <a itemprop="url" class="nav-link" href="/photography/"><span itemprop="name">Photography</span></a>
-              {%endif%}
-            </li>
-            <li class="nav-item">
-              {% if page.title == 'About'%}
-                <a itemprop="url" class="nav-link active" href="/about/"><span itemprop="name">About</span></a>
-              {% else %}
-                <a itemprop="url" class="nav-link" href="/about/"><span itemprop="name">About</span></a>
-              {%endif%}
-            </li>
-        </ul>
-    </div>
+<!-- Header Wrapper -->
+<header class="header">
+  <nav class="header__nav">
+      <div class="header__nav-left">
+          <ul class="header__menu brand">
+              <li class="header__menu-item"><a href="/">Silvan Adrian</a></li>
+          </ul>
+          <!-- Navigation -->
+         <ul class="header__menu">
+             <li class="header__menu-item"></li>
+          {% for menu in site.t[page.lang] %}
+            <li class="header__menu-item"><a href="{{ menu[1].url }}">{{ menu[1].name }}</a></li>
+          {% endfor %}
+         </ul>
+      </div>
+    <!-- Navigation -->
+
+    <!-- Language Selector -->
+    <ul class="header__language">
+      {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+      {% for post in posts %}
+      <li class="header__language-item">
+          <a href="{{ post.url }}" class="header__language-item-{{ post.lang }}">{{ post.lang }}</a>
+      </li>
+      {% endfor %}
+
+      {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+      {% for page in pages %}
+      <li class="header__language-item">
+          <a href="{{ page.url }}" class="header__language-item-{{ page.lang }}">{{ page.lang }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    <!-- Language Selector -->
   </nav>
+
 </header>
+<!-- Header Wrapper -->
+
+<!-- Header Image -->
 <div class="header-image">
-  {% if page.headerimg %}
-    <img width="100%" itemprop="image" itemtype="https://schema.org/ImageObject" src="{{page.headerimg}}"/>
-  {% endif %}
-  {% if page.credit %}
-    <div class="image-credit">Image source: <a href="{{page.credit[0]}}" itemprop="citation">{{page.credit[1]}}</a></div>
-  {% endif %}
+  <header>
+      <h1>{{page.title}}</h1>
+  </header>
 </div>
-<div class="page-wrapper">
+<!-- Header Image -->

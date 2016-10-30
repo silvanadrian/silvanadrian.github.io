@@ -2,37 +2,40 @@
 layout: home
 title: Blog
 headerimg: "/img/header/home.jpg"
+ref: index
+lang: en
 sitemap:
     priority: 1
     changefreq: 'weekly'
     lastmod: 2016-05-09T12:49:30-05:00
 ---
-<section class="container posts-wrapper">
-  <h2>Latest Updates</h2>
-  <div class="posts">
-    {% for post in site.posts %}
-    <a itemprop="url" href="{{post.url}}">
-      <article itemscope="" itemtype="http://schema.org/Article">
-        <div class="post-wrapper">
-            <img width="100%"itemprop="image" itemtype="https://schema.org/ImageObject" src="{{post.thumbnail}}"/>
-            <div class="card-share">
-                <a class="share-icon" href="#"><span class="fa fa-{{post.posttype}} "></span></a>
-            </div>
-            <div class="card-block">
-              <div class="post-date">
-                <time itemprop="datePublished" content="{{post.date}}" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d. %B %Y" }}</time>
-              </div>
-              <header>
-                  <h3 class="card-title"><a itemprop="url" href="{{post.url}}"><span itemprop="name">{{ post.title }}</span></a></h3>
-              </header>
-              <p class="card-text" itemprop="description">
-                  {{ post.excerpt | append: ' &hellip;'}}
-              </p>
-            </div>
+<section class="posts-wrapper">
 
-        </div>
-      </article>
-    </a>
-   {% endfor %}
-  </div>
+   {% assign posts=site.posts | where:"lang", page.lang %}
+
+  <ul class="posts">
+      {% assign posts=site.posts | where:"lang", page.lang %}
+      {% for post in posts %}
+      {% unless post.next %}
+
+      {% include date.html date=post.date %}
+         <h3>{{month}}{{year}}</h3>
+            {% else %}
+      {% capture year %}{% include date.html date=post.date %}{{month}}{{year}}{% endcapture %}
+
+      {% capture nyear %}{% include date.html date=post.date %}{{month}}{% endcapture %}
+
+      {% if year != nyear %}
+      <div class="post__month">
+          <h2 class="post__date-title">{{month}} {{year}}</h2>
+          {% endif %}
+          {% endunless %}
+          <li><span class="post__date">{{ day }}{{ sup }} {{ month }} {{ year }}</span><span class="post__link"> - </span><span class="post__link"> <a href="{{ post.url }}">{{ post.title }}</a></span></li>
+      </div>
+      {% endfor %}
+
+  </ul>
+
+
+
 </section>

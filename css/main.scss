@@ -26,11 +26,12 @@ sitemap: false
   url("../fonts/cd57a6d45e900c971cf5484e22b96c44.svg#bodytext") format("svg");
 }
 
+
 // Font Styling
 $base-font-family: 'bodytext', Arial, sans-serif;
 $heading-font: 'header';
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
+$base-font-size:   10px;
+$small-font-size:  $base-font-size * 1.2;
 $base-line-height: 1.5;
 
 //Spacing
@@ -42,10 +43,14 @@ $background-color: #FFF;
 $brand-color:      #2a7ae2;
 $nav-color:        #808080;
 $post-meta-color:  #828282;
+$white: #FFF;
+
 
 $grey-color:       #828282;
+$lightgrey-color: #f2f2f2;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+
 
 // Width of the content area
 $content-width:    100%;
@@ -72,9 +77,11 @@ $large-devices:    1200px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
+        "basic",
         "syntax-highlighting",
-        "bootstrap",
-        "font-awesome",
-       "layout"
+        "header",
+        "page",
+        "blog",
+        "project",
+        "footer"
 ;
