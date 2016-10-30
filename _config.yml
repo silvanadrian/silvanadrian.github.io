@@ -26,11 +26,6 @@ collections:
    output: true
    permalink: /:title
 
-# Translations
-index:
-  en:
-  de: anfang.html
-
 #Brand Navigation
 b:
   en:
@@ -40,7 +35,7 @@ b:
   de:
    home:
       name: "Home"
-      url: home.html
+      url: "/home/"
 
 #Navigatiion
 t:
@@ -57,7 +52,7 @@ t:
   de:
     home:
       name: "Blog"
-      url: "/home/"
+      url: /home/
     projects:
       name: "Projekte"
       url: "/projekte/"
