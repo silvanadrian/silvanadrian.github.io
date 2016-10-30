@@ -7,7 +7,6 @@ link: "http://tierarztpraxisflaach.ch"
 thumbnail: '/img/projects/tierarztpraxisflaach/tierarztpraxislogo.jpg'
 sideimage: '/img/projects/tierarztpraxisflaach/tierarztpraxisflaach.jpg'
 technology: Wordpress, HTML, CSS
-posttype: desktop
 lang: de
 ref: flaach
 sitemap:

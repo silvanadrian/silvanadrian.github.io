@@ -18,13 +18,13 @@ markdown: kramdown
 highlighter: rouge
 
 excerpt_separator: "<!--more-->"
-permalink: /:title
+permalink: /:title/
 collections:
   images:
     output: false
   projects:
    output: true
-   permalink: /:title
+   permalink: /:title/
 
 #Brand Navigation
 b:
