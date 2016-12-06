@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Typeset LaTex Documents with Gulp"
-date:   2016-12-06
-lang: en
+date:   2016-12-06 14:00
+lang: de
 ref: latex-gulp
 sitemap:
     priority: 0.8
