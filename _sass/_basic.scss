@@ -27,8 +27,8 @@ body, html {
  * Links
  */
 
-a,a:visited {color:#2A628F; text-decoration: none;}
-a:hover {color: #3E92CC; text-decoration: underline;}
+a,a:visited {color:#3E92CC; text-decoration: none;}
+a:hover {color: lighten(#3E92CC,25); text-decoration: underline;}
 
 /**
  * Images
