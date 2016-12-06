@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Python or Node Skript as Systemd Service"
-date:   2016-12-05 14:00
+date:   2016-12-05 18:00
 lang: de
 ref: systemd-service
 sitemap:
@@ -10,62 +10,54 @@ sitemap:
     lastmod: 2016-12-05T12:49:30-05:00
 ---
 
-It's quite easy to use Gulp to typeset LaTex files with Gulp and I actually used it for my Bachelor Thesis.
-
-Okay so first of all we want to be able to typeset LaTex Files over the CLI (Command Line Interface) and it should be possible to include a Bibliography and a Glossary which means the Document has to be typesetted 3 times.
-For this I used _latexmk_ which is easy use.
+Kürzlich musste ich ein Python Script und ein Node Script als Service auf einem Ubuntu Serve einrichten, daher un ein Blog Post dazu.
 
 
-{% highlight bash %}
-#.latexmkrc
-$pdflatex = 'pdflatex -interaction=nonstopmode -shell-escape';
 
-add_cus_dep('glo', 'gls', 0, 'makeglossaries');
-sub makeglossaries {
-	system("makeglossaries \"$_[0]\"");
-}
+So zu allererst muss eine Service Datei erstellt werden.
+{% highlight shell linenos %}sudo nano /lib/systemd/system/example.service{% endhighlight %}
+
+
+## Service Datei
+
+Und die Service Datei soll folgenden Inhalt haben:
+
+{% highlight shell linenos %}
+[Unit]
+Description=Pufferfish Logger
+After=multi-user.target
+
+[Service]
+User=ccproxy
+Type=idle
+ExecStart=/usr/bin/python /home/example/example.py
+
+[Install]
+WantedBy=multi-user.target
 {% endhighlight %}
 
-Now we need to create a Makefile to call _latexmk_, which is pretty Straight forward.
+Das _/user/bin/python_ kann auch zu jeder anderen Sprache geändert werden (_which python/ruby_).
 
-{% highlight makefile %}
-TEX=pdflatex
+## Service Access Rights
 
-all:
-	latexmk -pdf -r .latexmkrc main
-
-main:
-	$(TEX) -interaction=nonstopmode -halt-on-error -shell-escape main.tex
-
+Nun noch die richtigen Zugriffsrechte setzen.
+{% highlight shell linenos %}
+sudo chmod 644 /lib/systemd/system/example.service
 {% endhighlight %}
 
-Now at last we can use _Gulp_, for this we need to create a _Gulpfile.js_.
-{% highlight javascript %}
-var gulp = require('gulp');
-var shell = require('gulp-shell');
-var notify = require("gulp-notify");
+## Enable Service
 
-gulp.task('latex', function() {
-    return gulp.src('*.tex', {read: false})
-    .pipe(shell(["make"],{quiet: true})
-    .on('error', notify.onError({
-			title: "Compiling Failed",
-			message: "Latex Document couldn't get typesetted.",
-      "sound": "Sosumi"
-		})
-  ))
-    .pipe(notify({
-      title: "Compiling Succeded!",
-      message: "Documentation has been typesetted Succesfully!",
-      "sound": "Pop"
-      }
-    ))
-});
-
-gulp.task('watch', function() {
-    gulp.watch('**/*.tex', ['latex']);
-});
+Systemctl reloaden und den Service aktivieren.
+{% highlight shell linenos %}
+sudo systemctl daemon-reload
+ sudo systemctl enable example.service
 {% endhighlight %}
 
-So I just used Shell to execute the Shell command make (which uses the Makefile) and use _gulp-notify_ to send a Notify Message if typesetting was possible or not.
-Additional to that using the _watch_ command to check if any files changed and if one has changed run the make command.
+## End
+Das wars schon nun kann das System neugestartet werden und der Service startet wieder automatisch und die üblichen systemctl command stehen zur Verfügung.
+
+{% highlight shell linenos %}
+sudo systemctl start example.service
+sudo systemctl stop example.service
+sudo systemctl restart example.service
+{% endhighlight %}

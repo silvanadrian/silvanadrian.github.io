@@ -16,7 +16,7 @@ Also zu allererst muss es möglich sein das LaTex Dokument über das CLI (Comman
 Dabei soll es möglich sein ein Glossar oder Literaturverzeichnis einzubinden, dadurch muss das Dokument 3 Mal typesetted werden.
 
 
-{% highlight bash %}
+{% highlight bash linenos %}
 #.latexmkrc
 $pdflatex = 'pdflatex -interaction=nonstopmode -shell-escape';
 
@@ -30,7 +30,7 @@ sub makeglossaries {
 Zusätzlich benötigen wir ein Makefile um _latexmk_ aufzurufen.
 
 
-{% highlight makefile %}
+{% highlight makefile linenos %}
 TEX=pdflatex
 
 all:
@@ -44,7 +44,7 @@ main:
 Zum Schluss wird natürlich noch ein _Gulfile.js_ benötigt, welches den _make_ Befehl ausführt.
 
 Now at last we can use _Gulp_, for this we need to create a _Gulpfile.js_.
-{% highlight javascript %}
+{% highlight javascript linenos %}
 var gulp = require('gulp');
 var shell = require('gulp-shell');
 var notify = require("gulp-notify");
