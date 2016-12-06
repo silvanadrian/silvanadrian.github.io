@@ -21,7 +21,8 @@ Or if you are interested in what I'm programming in my free time have a look aro
 
 ## Curriculum Vitae
 
-Interested in the CV from me?! please write me a mail at <a href="mailto:hallo@silvanadrian.ch">hallo@silvanadrian.ch</a>
+Interested in the CV from me?! please write me a mail at <a href="mailto:hallo@silvanadrian.ch">hallo@silvanadrian.ch</a> or visit my [Linkedin](https://www.linkedin.com/in/silvanadrian) or [Xing](https://www.xing.com/profile/Silvan_Adrian) Account.
+
 
 ## Other Stuff
 

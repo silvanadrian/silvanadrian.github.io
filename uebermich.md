@@ -23,7 +23,7 @@ Falls jemand daran interessiert ist, was ich so programmiere so findet man alles
 
 ## Curriculum Vitae
 
-Interessiert an einem CV von mir ?! Dann bitte ein Mail an <a href="mailto:hallo@silvanadrian.ch">hallo@silvanadrian.ch</a> schreiben.
+Interessiert an einem CV von mir ?! Dann bitte ein Mail an <a href="mailto:hallo@silvanadrian.ch">hallo@silvanadrian.ch</a> schreiben oder mein [Linkedin](https://www.linkedin.com/in/silvanadrian) oder [Xing](https://www.xing.com/profile/Silvan_Adrian) Account besuchen.
 
 ## Anderes
 
