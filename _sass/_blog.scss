@@ -10,6 +10,9 @@
   &  li:last-child {
     margin-bottom: 40px;
   }
+  & li {
+    padding: 10px 0;
+  }
 }
 
 .post {
@@ -20,6 +23,7 @@
   }
   &__month {
     font-size: 2.5rem;
+    list-style-type: none;
   }
   &__date {
     &-title{

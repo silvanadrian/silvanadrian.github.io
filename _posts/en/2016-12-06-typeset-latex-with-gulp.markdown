@@ -7,7 +7,7 @@ ref: latex-gulp
 sitemap:
     priority: 0.8
     changefreq: 'monthly'
-    lastmod: 2016-12-06T12:49:30-05:00
+    lastmod: 2016-12-05T12:49:30-05:00
 ---
 
 It's quite easy to use Gulp to typeset LaTex files with Gulp and I actually used it for my Bachelor Thesis.
@@ -16,7 +16,7 @@ Okay so first of all we want to be able to typeset LaTex Files over the CLI (Com
 For this I used _latexmk_ which is easy use.
 
 
-{% highlight bash %}
+{% highlight bash linenos %}
 #.latexmkrc
 $pdflatex = 'pdflatex -interaction=nonstopmode -shell-escape';
 
@@ -28,7 +28,7 @@ sub makeglossaries {
 
 Now we need to create a Makefile to call _latexmk_, which is pretty Straight forward.
 
-{% highlight makefile %}
+{% highlight makefile linenos %}
 TEX=pdflatex
 
 all:
@@ -40,7 +40,7 @@ main:
 {% endhighlight %}
 
 Now at last we can use _Gulp_, for this we need to create a _Gulpfile.js_.
-{% highlight javascript %}
+{% highlight javascript linenos %}
 var gulp = require('gulp');
 var shell = require('gulp-shell');
 var notify = require("gulp-notify");
