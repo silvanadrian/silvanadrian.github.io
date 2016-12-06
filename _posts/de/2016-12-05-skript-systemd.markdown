@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Python or Node Skript as Systemd Service"
+title:  "Python oder Node Skript als Systemd Service"
 date:   2016-12-05 18:00
 lang: de
 ref: systemd-service
