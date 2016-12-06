@@ -31,7 +31,7 @@ sitemap:
                 {% endif %}
             {% endunless %}
             {% include date.html date=post.date %}
-            <li><span class="post__date">{{ day }}{{ sup }} {{ month }} {{ year }}</span><span class="post__link"> - </span><span class="post__link"> <a href="{{ post.url }}">{{ post.title }}</a></span></li>
+            <li><span class="post__date">{{ day }}. {{ month }} {{ year }}</span><span class="post__link"> - </span><span class="post__link"> <a href="{{ post.url }}">{{ post.title }}</a></span></li>
         </ul>
         {% endfor %}
     </div>
