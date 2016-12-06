@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Typeset LaTex Documents with Gulp"
-date:   2016-12-06 14:00
+date:   2016-06-12 14:00
 lang: en
 ref: latex-gulp
 sitemap:
