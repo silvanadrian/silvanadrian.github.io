@@ -1,0 +1,21 @@
+---
+layout: project
+title:  "Loremimg"
+date:   2016-03-11 13:33:44
+excerpt: "REST API to get resized Images "
+github-url: "https://github.com/silvanadrian/loremimg"
+thumbnail: '/img/projects/loremimg/lorempixel.svg'
+sideimage: '/img/projects/loremimg/lorempixel.svg'
+technology: Python, Django
+lang: en
+ref: loremimg
+sitemap:
+    priority: 0.8
+    changefreq: 'monthly'
+    lastmod: 2016-05-09T12:49:30-05:00
+---
+
+A very simple REST API which can return uploaded Images in every Size needed (inspired by lorempixel).  
+Each Image belongs to a Category and has a name (unique) which allows to choose the image to show according to it's name.
+Source Code is on [Github](https://github.com/silvanadrian/loremimg) and is licensed under [MIT](https://opensource.org/licenses/MIT).
+

@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="container">
+
+    <div class="projects">
+        {% assign projects=site.projects | where:"lang", page.lang %}
+        {% for project in projects reversed %}
+
+            <article class="projects__wrapper">
+                <div class="projects__description">
+                    <h2><a href="{{project.url}}">{{project.title}}</a></h2>
+                    {% include date.html date=project.date %}
+                    <p class="meta">{{year}} {{month}} - {{project.technology}}</p>
+                    <p>{{project.excerpt}}</p>
+                </div>
+                <div class="projects__description">
+                    <a href="{{project.url}}"><img src="{{project.thumbnail}}" alt="{{project.title}}"></a>
+                </div>
+            </article>
+
+        {% endfor %}
+    </div>
+
+</div>

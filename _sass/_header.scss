@@ -1,0 +1,84 @@
+/*
+
+  Header Styles
+
+*/
+
+.header {
+  background: #1C1C1C;
+  padding: 20px 0;
+  font-family: $heading-font;
+  &__nav {
+    max-width:1044px;
+    padding:0 22px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-left {
+      display: flex;
+      @include media-query($small-devices) {
+        display: block;
+      }
+    }
+  }
+  //Main Menu
+  &__menu {
+    display: flex;
+    & li:first-child a {
+      color:#FFF;
+      margin-right:25px;
+    }
+    &-item {
+      list-style: none;
+      & a {
+        margin-right:15px;
+        display: block;
+        font-size: 2.5rem;
+        color:#808080;
+        @include media-query($small-devices) {
+          font-size:2rem;
+        }
+        &:hover {
+          color: #EFEFEF;
+        }
+      }
+    }
+  }
+  //Language Selector
+  &__language {
+    display: flex;
+    &-item {
+      list-style: none;
+      & a {
+        margin-right:10px;
+        display: block;
+        font-size: 2.5rem;
+        color:#808080;
+        @include media-query($small-devices) {
+          font-size:2rem;
+        }
+      }
+      &-en:lang(en) {
+        color:#ffffff;
+      }
+      &-de:lang(de) {
+        color:#ffffff;
+      }
+    }
+  }
+}
+
+
+
+.header-image {
+  background:url(/img/header.jpg) no-repeat center center;
+  background-size:cover;
+  & h1 {
+    font-size:3rem;
+    margin:0;
+    color:#FFF;
+    text-align:center;
+      padding: 100px 0;
+  }
+}

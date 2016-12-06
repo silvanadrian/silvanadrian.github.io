@@ -1,0 +1,94 @@
+/*
+  Blog Styles
+
+*/
+
+.posts {
+  padding: 50px 22px;
+  text-align: center;
+  list-style: none;
+  &  li:last-child {
+    margin-bottom: 40px;
+  }
+}
+
+.post {
+  &__wrapper {
+    padding: 35px 0;
+    width:700px;
+    margin:0 auto;
+  }
+  &__month {
+    font-size: 2.5rem;
+      & a {
+        color: #2A628F;
+        &:hover {
+          color: #3E92CC;
+        }
+      }
+  }
+  &__date {
+    &-title{
+      text-transform: none;
+      text-align:center;
+      font-size:3rem;
+      color: #808080;
+    }
+  }
+  &__title {
+    font-size:2.5rem;
+    & a {
+      color:#1C1C1C;
+    }
+  }
+}
+
+/*
+
+ Post Styles
+
+ */
+
+
+.post {
+  max-width:844px;
+  padding:30px 22px;
+  margin: 0 auto;
+  &__link {
+    font-size: 2.5rem;
+  }
+  &__date {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #808080;
+    margin-bottom:35px;
+  }
+  &__comments {
+    max-width:80%;
+    margin:0 auto;
+    padding:30px 0;
+    @include media-query($small-devices) {
+      max-width:100%;
+    }
+  }
+  &__content {
+    max-width:80%;
+    margin:0 auto;
+    font-size: 1.8rem;
+    @include media-query($small-devices) {
+      max-width:100%;
+    }
+    & h2 {
+      padding:15px 0;
+    }
+    & h3 {
+      padding:10px 0;
+    }
+    & h4 {
+      padding:5px 0;
+    }
+    & p {
+      padding: 10px 0;
+    }
+  }
+}

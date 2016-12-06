@@ -1,0 +1,40 @@
+---
+layout: default
+title: Blog
+headerimg: "/img/header/home.jpg"
+ref: index
+lang: de
+permalink: /home/
+sitemap:
+    priority: 1
+    changefreq: 'weekly'
+    lastmod: 2016-05-09T12:49:30-05:00
+---
+<section class="posts-wrapper">
+
+    {% assign posts=site.posts | where:"lang", page.lang %}
+
+    <ul class="posts">
+    {% assign posts=site.posts | where:"lang", page.lang %}
+    {% for post in posts %}
+        {% unless post.next %}
+
+        {% include date.html date=post.date %}
+        <h2 class="post__date-title">{{month}} {{year}}</h2>
+        {% else %}
+        {% capture year %}{% include date.html date=post.date %}{{month}}{{year}}{% endcapture %}
+
+        {% capture nyear %}{% include date.html date=post.date %}{{month}}{% endcapture %}
+
+        {% if year != nyear %}
+        <h2 class="post__date-title">{{month}} {{year}}</h2>
+        {% endif %}
+        {% endunless %}
+        <li class="post__month"><span class="post__date">{{ day }}. {{ month }} {{ year }}</span> - <span class="post__link"> <a href="{{ post.url }}">{{ post.title }}</a></span></li>
+    {% endfor %}
+
+    </ul>
+
+
+
+</section>
