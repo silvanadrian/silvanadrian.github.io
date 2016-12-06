@@ -11,31 +11,28 @@ sitemap:
 ---
 <section class="posts-wrapper">
 
-   {% assign posts=site.posts | where:"lang", page.lang %}
-
-  <ul class="posts">
+  <div class="posts">
       {% assign posts=site.posts | where:"lang", page.lang %}
       {% for post in posts %}
-      {% unless post.next %}
+      {% unless forloop.last %}
 
       {% include date.html date=post.date %}
          <h2 class="post__date-title">{{month}} {{year}}</h2>
             {% else %}
-      {% capture year %}{% include date.html date=post.date %}{{month}}{{year}}{% endcapture %}
+            {% capture year %}{{ post.date | date: '%Y %b' }}{% endcapture %}
+    	      {% capture nyear %}{{ post.next.date | date: '%Y %b' }}{% endcapture %}
 
-      {% capture nyear %}{% include date.html date=post.date %}{{month}}{% endcapture %}
-
-      {% if year != nyear %}
-      <div class="post__month">
+      <ul class="post__month">
+          {% if year != nyear %}
           <h2 class="post__date-title">{{month}} {{year}}</h2>
           {% endif %}
           {% endunless %}
+          {% include date.html date=post.date %}
           <li><span class="post__date">{{ day }}{{ sup }} {{ month }} {{ year }}</span><span class="post__link"> - </span><span class="post__link"> <a href="{{ post.url }}">{{ post.title }}</a></span></li>
-      </div>
+      </ul>
       {% endfor %}
 
-  </ul>
-
+  </div>
 
 
 </section>
