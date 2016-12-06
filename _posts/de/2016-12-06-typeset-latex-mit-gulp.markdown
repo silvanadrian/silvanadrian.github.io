@@ -10,9 +10,9 @@ sitemap:
     lastmod: 2016-12-06T12:49:30-05:00
 ---
 
-Es ist sehr einfach Gulp für das typesetten von Latex Dokumenten zuverwenden, was ich auch getan habe für meine Bachelor Arbeit.
+Es ist sehr einfach Gulp für das typesetten von Latex Dokumenten zu verwenden, was ich auch getan habe für meine Bachelor Arbeit.
 
-Also zuallererst muss es möglich sein das Latex Dokuemtn über CLI (Command Line Interface) typesetten zu können, dazu verwendete ich _latexmk_, was sehr einfach zu benutzen ist.
+Also zu allererst muss es möglich sein das Latex Dokument über das CLI (Command Line Interface) typesetten zu können, dazu verwendete ich _latexmk_, was sehr einfach zu benutzen ist.
 Dabei soll es möglich sein ein Glossar oder Literaturverzeichnis einzubinden, dadurch muss das Dokument 3 Mal typesetted werden.
 
 
@@ -41,7 +41,7 @@ main:
 
 {% endhighlight %}
 
-Zum Schluss wird natürlich auch noch ein _Gulfile.js_ benötigt, welches den _make_ Befehl ausführt.
+Zum Schluss wird natürlich noch ein _Gulfile.js_ benötigt, welches den _make_ Befehl ausführt.
 
 Now at last we can use _Gulp_, for this we need to create a _Gulpfile.js_.
 {% highlight javascript %}
@@ -71,4 +71,4 @@ gulp.task('watch', function() {
 });
 {% endhighlight %}
 
-Zur Erweiterung wurde noch _gulp-notify_ verwendet um über den Erfolg oder Misserfolg des typsetten zu berichten und natürlich _watch_ um über Änderungen an Latex Dateien auf dem laufenden zu sein.
+Zur Erweiterung habe ich noch _gulp-notify_ verwendet um über Erfolg oder Misserfolg des typsetten zu berichten und  _watch_ um über Änderungen an Latex Dateien auf dem laufenden zu bleiben.
