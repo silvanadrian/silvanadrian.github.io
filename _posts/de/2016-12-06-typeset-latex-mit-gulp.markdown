@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Typeset LaTex Documents with Gulp"
+title:  "LaTex Dokumente mit Gulp typesetten"
 date:   2016-12-06 14:00
 lang: de
 ref: latex-gulp

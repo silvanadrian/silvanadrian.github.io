@@ -19,7 +19,7 @@ sitemap:
       {% unless post.next %}
 
       {% include date.html date=post.date %}
-         <h3>{{month}}{{year}}</h3>
+         <h2 class="post__date-title">{{month}} {{year}}</h2>
             {% else %}
       {% capture year %}{% include date.html date=post.date %}{{month}}{{year}}{% endcapture %}
 

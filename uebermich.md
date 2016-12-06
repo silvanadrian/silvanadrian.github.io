@@ -15,7 +15,7 @@ sitemap:
 Ich bin ein 23 jahre alter Informatikstudent und lebe in der nähe von Zürich.
 Momentan arbeite ich als Frontend Developer neben dem Studium und entwickle dabei verschiedenste Webseiten oder unterhalte diese.
 
-Der Blog auf dieser Seite soll ein Auffangbecken für alles neuerlernte, kuriose oder was auch immer gerade ansteht.
+Der Blog auf dieser Seite soll ein Auffangbecken für alles Neuerlernte, kuriose oder was auch immer gerade ansteht
  sein.
 Hier ist der [RSS Feed](https://silvanadrian.ch/feed.xml) oder auf Twitter kann man mir auch folgen [@silvnsan](https://twitter.com/silvnsan).
 
