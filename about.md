@@ -28,6 +28,6 @@ Interested in the CV from me?! please write me a mail at <a href="mailto:hallo@s
 
 Sometimes I also write Travel Blogs.
 
-Japan 2015 : <a rel="nofollow" href="http://silvanadrian.ch/japan2015">Japan 2015</a>
+Japan 2015 : <a rel="nofollow" href="https://silvanadrian.github.io/japan2015/">Japan 2015</a>
 
-Interrail 2013 : <a rel="nofollow" href="http://silvanadrian.ch/interrail2013">Interrail 2013</a>
+Interrail 2013 : <a rel="nofollow" href="https://silvanadrian.github.io/interrail2013/">Interrail 2013</a>
