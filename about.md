@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-excerpt: "I’m a 23 year-old Computer Science Student and part-time Frontend Developer"
+excerpt: "I’m a 24 year-old part-time Software Engineer/Frontend Developer"
 lang: en
 ref: about
 sitemap:
@@ -11,8 +11,8 @@ sitemap:
     lastmod: 2016-05-09T12:49:30-05:00
 ---
 
-I'm a 23 year-old Computer Science Student living near Zürich.
-My current job I'm working on while studying is as a Frontend Developer, as which I develop different kinds of Websites or maintain them.
+I'm a 24 year-old part-time Software Engineer/Frontend Developer living near Zürich.
+My current jobs I'm working is as a Software Engineer/Frontend Developer, as which I develop different kinds of Websites/Apps or maintain them.
 
 I try to write mostly about technology, programming, traveling or a project. If you are interested in hearing more from me, subscribe to the [RSS feed](https://silvanadrian.ch/feed.xml) or follow me on twitter [@silvnsan](https://twitter.com/silvnsan).
 
