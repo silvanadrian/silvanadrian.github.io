@@ -12,7 +12,7 @@ sitemap:
 ---
 
 I'm a 24 year-old part-time Software Engineer/Frontend Developer living near Zürich.
-My current jobs I'm working is as a Software Engineer/Frontend Developer, as which I develop different kinds of Websites/Apps or maintain them.
+My current jobs I'm working on is as a Software Engineer/Frontend Developer, as which I develop different kinds of Websites and Apps or maintain them.
 
 I try to write mostly about technology, programming, traveling or a project. If you are interested in hearing more from me, subscribe to the [RSS feed](https://silvanadrian.ch/feed.xml) or follow me on twitter [@silvnsan](https://twitter.com/silvnsan).
 
