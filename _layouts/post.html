@@ -12,7 +12,7 @@
       <!-- Post Date -->
       <div class="post__date">
         {% include date.html date=page.date %}
-        <time itemprop="datePublished" content="{{page.date}}" datetime="{{page.date format='YYYY-MM-DD'}}">
+        <time itemprop="datePublished" content="{{page.date}}" datetime="{{page.date | date_to_xmlschema}}">
           {{ day }}{% if page.lang == 'en' %}{{ sup }} {% else %}. {% endif %} {{ month }} {{ year }}
         </time>
       </div>

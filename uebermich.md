@@ -12,7 +12,7 @@ sitemap:
 ---
 
 
-Ich bin ein 24 jahre alter Software Engineer/Frontend Developer und lebe in der nähe von Zürich.
+Ich bin ein 26 jahre alter Software Engineer/Frontend Developer und lebe in Kopenhagen.
 Momentan arbeite ich als Software Engineer/Frontend Entwickler und entwickle dabei verschiedenste Webseiten und Apps oder unterhalte diese.
 
 Der Blog auf dieser Seite soll ein Auffangbecken für alles Neuerlernte, kuriose oder was auch immer gerade ansteht

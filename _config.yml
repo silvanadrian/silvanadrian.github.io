@@ -71,5 +71,5 @@ assets:
      - _assets/stylesheets
      - _assets/images
 
-gems:
+plugins:
   - jemoji
