@@ -15,17 +15,17 @@ I'm a 26 year old part-time Software Engineer living and studying in Copenhagen.
 
 If you are interested in hearing more from me feel free to follow me on twitter [@silvnsan](https://twitter.com/silvnsan).
 
-Or if you are interested in what I'm programming in my free time have a look around on my Github Account [silvanadrian](https://github.com/silvanadrian).
+Or if you are interested in what I'm programming in my free time have a look at my Github account [silvanadrian](https://github.com/silvanadrian).
 
 
 ## Curriculum Vitae
 
-Interested in the CV from me?! please write me a mail at <a href="mailto:hallo@silvanadrian.ch">hallo@silvanadrian.ch</a> or visit my [Linkedin](https://www.linkedin.com/in/silvanadrian) or [Xing](https://www.xing.com/profile/Silvan_Adrian) Account.
+Interested in the CV from me?! please write me a mail at <a href="mailto:hallo@silvanadrian.ch">hallo@silvanadrian.ch</a> or visit my [Linkedin](https://www.linkedin.com/in/silvanadrian) or [Xing](https://www.xing.com/profile/Silvan_Adrian) account.
 
 
 ## Other Stuff
 
-Sometimes I also write Travel Blogs.
+Sometimes I also write travel Blogs.
 
 Japan 2015 : <a rel="nofollow" href="https://silvanadrian.github.io/japan2015/">Japan 2015</a>
 
