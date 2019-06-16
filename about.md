@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-excerpt: "I’m a 24 year-old part-time Software Engineer/Frontend Developer"
+excerpt: "I’m a 26 year-old part-time Software Engineer/Frontend Developer"
 lang: en
 ref: about
 sitemap:

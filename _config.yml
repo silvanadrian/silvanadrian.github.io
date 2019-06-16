@@ -1,7 +1,7 @@
 # Site settings
 title: Silvan Adrian
 email: hallo@silvanadrian.ch
-description: "Hello and Welcome to the online Home of Switzerland based Frontend Developer Silvan Adrian"
+description: "Hello and welcome to the online home of Silvan Adrian"
 photography: "Travel Photography and my Photographs I took over the years"
 projectshead: "My Projects I did over the years"
 url: "https://silvanadrian.ch"
@@ -11,7 +11,7 @@ display_name: Silvan Adrian
 gravatar: 60fd5218fff6927c0ed376cce01c5460
 twitter: silvnsan
 github: silvanadrian
-location: "Zürich, Switzerland"
+location: "Copenhagen, Denmark"
 bio: Computer Science Student and part-time Frontend Developer.
 # Build settings
 markdown: kramdown
