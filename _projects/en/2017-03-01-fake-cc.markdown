@@ -1,0 +1,19 @@
+---
+layout: project
+title:  "Fish Tank Suite"
+date:   2017-03-01 13:33:44
+excerpt: "Proxy redirection with fake c&c"
+github-url: "https://github.com/silvanadrian/loremimg"
+thumbnail: '/img/projects/fcc/fts-thumbnail.svg'
+sideimage: '/img/projects/fcc/fts.svg'
+technology: Python, Ruby, Javascript
+lang: en
+ref: fishtanksuite
+sitemap:
+    priority: 0.8
+    changefreq: 'monthly'
+    lastmod: 2019-06-16T12:49:30-05:00
+---
+
+This was my bachelor thesis project which involved a big tech stack and the idea behind it was to develop a software which is able to redirect web traffic to a fake c&c (command & control) server.
+The code can be found on [Github](https://github.com/fishtanksuite).

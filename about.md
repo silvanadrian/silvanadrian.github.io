@@ -11,10 +11,9 @@ sitemap:
     lastmod: 2016-05-09T12:49:30-05:00
 ---
 
-I'm a 26 year-old part-time Software Engineer/Frontend Developer living in Copenhagen.
-My current jobs I'm working on is as a Software Engineer/Frontend Developer, as which I develop different kinds of Websites and Apps or maintain them.
+I'm a 26 year old part-time Software Engineer living and studying in Copenhagen.
 
-I try to write mostly about technology, programming, traveling or a project. If you are interested in hearing more from me, subscribe to the [RSS feed](https://silvanadrian.ch/feed.xml) or follow me on twitter [@silvnsan](https://twitter.com/silvnsan).
+If you are interested in hearing more from me feel free to follow me on twitter [@silvnsan](https://twitter.com/silvnsan).
 
 Or if you are interested in what I'm programming in my free time have a look around on my Github Account [silvanadrian](https://github.com/silvanadrian).
 

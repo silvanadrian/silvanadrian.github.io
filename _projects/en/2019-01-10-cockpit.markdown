@@ -1,0 +1,18 @@
+---
+layout: project
+title:  "Dade Design cockpit"
+date:   2019-01-10 13:33:44
+excerpt: "Dade Design cokpit"
+github-url: "https://github.com/silvanadrian/loremimg"
+thumbnail: '/img/projects/cockpit/cockpit_thumb.svg'
+sideimage: '/img/projects/cockpit/cockpit.png'
+technology: Angular, Firebase
+lang: en
+ref: cockpit
+sitemap:
+    priority: 0.8
+    changefreq: 'monthly'
+    lastmod: 2019-06-16T12:49:30-05:00
+---
+
+This project was a cockpit for a production environment to easily keep an overview of ongoing tasks and who is responsible for. The cockpit is real-time synchronized over all clients thanks to Firebase as a backend as a service.
