@@ -15,7 +15,5 @@ sitemap:
     lastmod: 2016-05-09T12:49:30-05:00
 ---
 
-A very simple REST API which can return uploaded Images in every Size needed (inspired by lorempixel).  
-Each Image belongs to a Category and has a name (unique) which allows to choose the image to show according to it's name.
-Source Code is on [Github](https://github.com/silvanadrian/loremimg) and is licensed under [MIT](https://opensource.org/licenses/MIT).
-
+A very simple REST API which returns uploaded Images in every size needed (inspired by lorempixel).  
+Each image belongs to a category and has a name (unique). Source code is on [Github](https://github.com/silvanadrian/loremimg) and is licensed under [MIT](https://opensource.org/licenses/MIT).

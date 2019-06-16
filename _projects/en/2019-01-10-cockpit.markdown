@@ -15,4 +15,4 @@ sitemap:
     lastmod: 2019-06-16T12:49:30-05:00
 ---
 
-This project was a cockpit for a production environment to easily keep an overview of ongoing tasks and who is responsible for. The cockpit is real-time synchronized over all clients thanks to Firebase as a backend as a service.
+This project is a cockpit for production to easily keep an overview of ongoing tasks and who is responsible for which task. The cockpit is real-time synchronized over all clients thanks to Firebase as a backend as a service.
