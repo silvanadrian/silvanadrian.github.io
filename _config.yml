@@ -41,21 +41,15 @@ b:
 t:
   en:
     home:
-      name: "Blog"
-      url: "/"
-    projects:
       name: "Projects"
-      url: "/projects/"
+      url: "/"
     about:
       name: "About"
       url: "/about/"
   de:
     home:
-      name: "Blog"
-      url: /home/
-    projects:
       name: "Projekte"
-      url: "/projekte/"
+      url: /home/
     about:
       name: "Über mich"
       url: "/ueber-mich/"
