@@ -11,7 +11,7 @@ sitemap:
     lastmod: 2016-05-09T12:49:30-05:00
 ---
 
-I'm a 26 year old part-time Software Engineer living and studying in Copenhagen.
+I'm a 26 year old freelance Software Engineer living in Hong Kong at the moment and studying on my master degree.
 
 If you are interested in hearing more from me feel free to follow me on twitter [@silvnsan](https://twitter.com/silvnsan).
 
