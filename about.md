@@ -21,12 +21,3 @@ Or if you are interested in what I'm programming in my free time have a look at 
 ## Curriculum Vitae
 
 Interested in my CV?! please write me a mail at <a href="mailto:hallo@silvanadrian.ch">hallo@silvanadrian.ch</a> or visit my [Linkedin](https://www.linkedin.com/in/silvanadrian) or [Xing](https://www.xing.com/profile/Silvan_Adrian) account.
-
-
-## Other Stuff
-
-I also write travel Blogs sometimes:
-
-Japan 2015 : <a rel="nofollow" href="https://silvanadrian.github.io/japan2015/">Japan 2015</a>
-
-Interrail 2013 : <a rel="nofollow" href="https://silvanadrian.github.io/interrail2013/">Interrail 2013</a>
