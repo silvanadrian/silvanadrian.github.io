@@ -2,16 +2,16 @@
 layout: page
 title: About
 permalink: /about/
-excerpt: "I’m a 27 year-old part-time Software Engineer/Frontend Developer"
+excerpt: "I’m a 28 year-old Full-Stack Software Engineer"
 lang: en
 ref: about
 sitemap:
     priority: 0.7
     changefreq: 'monthly'
-    lastmod: 2016-05-09T12:49:30-05:00
+    lastmod: 2021-02-15T12:49:30-05:00
 ---
 
-I'm a 27 year old freelance Software Engineer living in Copenhagen at the moment and studying on my master degree.
+I'm a 28 year old freelance Full-Stack Software Engineer living in Switzerland.
 
 If you are interested in hearing more from me feel free to follow me on twitter [@silvnsan](https://twitter.com/silvnsan).
 
